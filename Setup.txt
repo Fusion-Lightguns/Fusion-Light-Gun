@@ -1,4 +1,4 @@
----Fusion Rival
+---Fusion Volt
 ------------------------------------------------
 --LED Setup 
 1. Unwrap LEDS and figure out wher e your gonna plug in 
@@ -21,7 +21,7 @@
 
 4a. Windows
 - Plug in a keyboard
-- Plug in Fusion Rivals
+- Plug in Fusion Volt
 - Open \Fusion-Lightguns\Software\Fusion-Guns-GUI\FP-Gun-Tool.exe
 - Click on Calibrate 
 - Follow on screen instructions
@@ -29,7 +29,7 @@
 
 4b. Linux/Pi
 - Plug in a keyboard
-- Plug in Fusion Rivals
+- Plug in Fusion Volt
 - Install Wine to run windows program. Linux program work in progress
 - Open \Fusion-Lightguns\Software\Fusion-Guns-GUI\FP-Gun-Tool.exe
 - Click on Calibrate 
@@ -44,5 +44,3 @@
 8. Move LEDS to match Guide Lines 
 
 9. Close FP-Gun-Tool
-
-10. For Emulator setup see
