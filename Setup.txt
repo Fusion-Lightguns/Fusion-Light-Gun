@@ -22,7 +22,7 @@
 4a. Windows
 - Plug in a keyboard
 - Plug in Fusion Volt
-- Open \Fusion-Lightguns\Software\Fusion-Guns-GUI\FP-Gun-Tool.exe
+- Open \Fusion-Lightguns\Software\Fusion-Guns-Tool\Fusion-Guns-Tool.exe
 - Click on Calibrate 
 - Follow on screen instructions
 
@@ -31,7 +31,7 @@
 - Plug in a keyboard
 - Plug in Fusion Volt
 - Install Wine to run windows program. Linux program work in progress
-- Open \Fusion-Lightguns\Software\Fusion-Guns-GUI\FP-Gun-Tool.exe
+- Open \Fusion-Lightguns\Software\Fusion-Guns-Tool\Fusion-Guns-Tool.exe
 - Click on Calibrate 
 - Follow on screen instructions
 
@@ -43,4 +43,4 @@
 
 8. Move LEDS to match Guide Lines 
 
-9. Close FP-Gun-Tool
+9. Close Fusion-Guns-Tool
