@@ -36,10 +36,12 @@
      On The Lightgun---------------Keyboard button
      
      - Trigger ----------------------Mouse 1
-
-     - Left side of gun button ------Mouse 2
      
-     - Right side of gun button -----Mouse 3
+     - Front Trigger ----------------Mouse 2
+
+     - Left side of gun button ------Mouse 3
+     
+     - Right side of gun button -----Escape
      
      
 # Freguently Asked Questions
