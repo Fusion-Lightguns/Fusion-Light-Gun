@@ -1,4 +1,4 @@
-# Fusion Volt Set4* -------------------- Version 1.00
+# Fusion Volt Setup -------------------- Version 1.00
 
 # LED Setup 
 
