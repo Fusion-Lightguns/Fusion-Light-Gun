@@ -1,6 +1,6 @@
 # Whats this ? 
 
-     A open source Pi Pico Infared Light gun made from a nerf gun shell.
+     A open source Pi Pico Infared Light gun made from a nerf or premade  gun shell.
 
 # What operating systems Fusion Phaser work on?
 
