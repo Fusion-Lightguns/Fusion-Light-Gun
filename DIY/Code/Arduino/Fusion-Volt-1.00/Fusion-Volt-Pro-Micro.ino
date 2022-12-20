@@ -1,6 +1,6 @@
 /*!
  * @file Fusion-Volt_1.0.ino
- * @brief 10 button Lightgun
+ * @brief Simple 6 button Lightgun with a calibrate button
  * @n INO file for Fusion Volt Light Gun setup
  * @version  V1.0
  * @date  2022
@@ -34,11 +34,7 @@ int xCenter = 512;              // Open serial monitor and update these values t
 int yCenter = 450;
 float xOffset = 147;             
 float yOffset = 82;
-       
-char _upKey = KEY_UP_ARROW;        // You can update your keyboard keys here        
-char _downKey = KEY_DOWN_ARROW;              
-char _leftKey = KEY_LEFT_ARROW;             
-char _rightKey = KEY_RIGHT_ARROW;                             
+                                 
 char _startKey = KEY_RETURN; 
 char _selectKey = KEY_BACKSPACE; 
 
@@ -53,11 +49,7 @@ int conMoveYAxis;
 
 int count = 4;                   // Set intial count
 
-int _triggerPin = 4;               // Label Pin to buttons
-int _upPin = 6;                
-int _downPin = 7;              
-int _leftPin = 8;             
-int _rightPin = 9;               
+int _triggerPin = 4;               // Label Pin to buttons             
 int _APin = A0;                
 int _BPin = A1;              
 int _startPin = A2; 
@@ -71,14 +63,6 @@ int buttonState1 = 0;
 int lastButtonState1 = 0;
 int buttonState2 = 0;
 int lastButtonState2 = 0;
-int buttonState3 = 0;
-int lastButtonState3 = 0;
-int buttonState4 = 0;         
-int lastButtonState4 = 0; 
-int buttonState5 = 0;           
-int lastButtonState5 = 0;
-int buttonState6 = 0;
-int lastButtonState6 = 0;
 int buttonState7 = 0;
 int lastButtonState7 = 0;
 int buttonState8 = 0;         
@@ -111,10 +95,6 @@ void setup() {
   AbsMouse.init(res_x, res_y);            
 
   pinMode(_triggerPin, INPUT_PULLUP);         // Set pin modes
-  pinMode(_upPin, INPUT_PULLUP);
-  pinMode(_downPin, INPUT_PULLUP);
-  pinMode(_leftPin, INPUT_PULLUP);
-  pinMode(_rightPin, INPUT_PULLUP);          // Set pin modes
   pinMode(_APin, INPUT_PULLUP);
   pinMode(_BPin, INPUT_PULLUP);
   pinMode(_startPin, INPUT_PULLUP);  
@@ -291,10 +271,6 @@ void go() {    // Setup Start Calibration Button
 void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
 
   buttonState2 = digitalRead(_triggerPin);
-  buttonState3 = digitalRead(_upPin);  
-  buttonState4 = digitalRead(_downPin);
-  buttonState5 = digitalRead(_leftPin);
-  buttonState6 = digitalRead(_rightPin);   
   buttonState7 = digitalRead(_APin);
   buttonState8 = digitalRead(_BPin);
   buttonState9 = digitalRead(_startPin);      
@@ -311,55 +287,6 @@ void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
     delay(10);
   }
 
-  if (buttonState3 != lastButtonState3) {
-    if (buttonState3 == LOW) {
-    Keyboard.press(_upKey);
-    }
-    else {
-    Keyboard.release(_upKey);
-    }
-    delay(10);
-  }
-
-  if (buttonState4 != lastButtonState4) {     
-    if (buttonState4 == LOW) {
-    Keyboard.press(_downKey);
-    }
-    else {
-    Keyboard.release(_downKey);
-    }
-    delay(10);
-  }
-
-  if (buttonState5 != lastButtonState5) {
-    if (buttonState5 == LOW) {
-    Keyboard.press(_leftKey);
-    }
-    else {
-    Keyboard.release(_leftKey);
-    }
-    delay(10);
-  }
-  
-  if (buttonState6 != lastButtonState6) {
-    if (buttonState6 == LOW) {
-    Keyboard.press(_rightKey);
-    }
-    else {
-    Keyboard.release(_rightKey);
-    }
-    delay(10);
-  }
-
-  if (buttonState7 != lastButtonState7) {
-    if (buttonState7 == LOW) {
-      AbsMouse.press(MOUSE_RIGHT);
-    }
-    else {
-      AbsMouse.release(MOUSE_RIGHT);
-    }
-    delay(10);
-  }
 
   if (buttonState8 != lastButtonState8) {     
     if (buttonState8 == LOW) {
