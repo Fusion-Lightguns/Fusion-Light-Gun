@@ -1,8 +1,10 @@
 /*!
- * @file Fusion-Volt_1.0.ino
- * @brief Simple 6 button Lightgun with a calibrate button
- * @n INO file for Fusion Volt Light Gun setup
- * @version  V1.0
+ * @file Fusion Phaser_Pro_Micro.ino
+ * @brief 10 Button Light Gun sketch for 4 LED setup
+ * @n INO file for Fusion Phaser Light Gun ]
+ *
+ * @author [Fusion Lightgubs](fusionphaser@gmail.com)
+ * @version  V1.01
  * @date  2022
  */
 
@@ -16,10 +18,7 @@
  *  Step 6: Mouse should lock to horizontal axis, use A/B buttons to adjust mouse left/right
  *  Step 7: Pull Trigger to finish
  *  Step 8: Offset are now saved to EEPROM
- *
- *   ATTENTION!!!!!!!!
- *   BUILT FOR PRO MICRO 32U4 5V
- */
+*/
 
 
 #include <HID.h>                // Load libraries
@@ -34,7 +33,11 @@ int xCenter = 512;              // Open serial monitor and update these values t
 int yCenter = 450;
 float xOffset = 147;             
 float yOffset = 82;
-                                 
+       
+char _upKey = KEY_UP_ARROW;        // You can update your keyboard keys here        
+char _downKey = KEY_DOWN_ARROW;              
+char _leftKey = KEY_LEFT_ARROW;             
+char _rightKey = KEY_RIGHT_ARROW;                             
 char _startKey = KEY_RETURN; 
 char _selectKey = KEY_BACKSPACE; 
 
@@ -47,22 +50,32 @@ int MoveYAxis;
 int conMoveXAxis;           // Constrained mouse postion
 int conMoveYAxis;           
 
-int count = 4;                   // Set intial count
+int count = -2;                   // Set intial count
 
-int _triggerPin = 4;               // Label Pin to buttons             
-int _APin = A0;                
-int _BPin = A1;              
+int _tiggerPin = 4;               // Label Pin to buttons
+int _upPin = 6;                
+int _downPin = 7;              
+int _leftPin = 8;             
+int _rightPin = 9;               
+int _APin = A1;                
+int _BPin = A0;              
 int _startPin = A2; 
 int _selectPin = A3;               
-int _caliPin = 5;
-int _pedalPin = 15;                //NOTE: Pedal needs to connected to pin 4 on 3V boards  
-
-
+int _reloadPin = 15;
+int _pedalPin = 5;                //NOTE: Pedal needs to connected to pin 4 on 3V boards  
 
 int buttonState1 = 0;           
 int lastButtonState1 = 0;
 int buttonState2 = 0;
 int lastButtonState2 = 0;
+int buttonState3 = 0;
+int lastButtonState3 = 0;
+int buttonState4 = 0;         
+int lastButtonState4 = 0; 
+int buttonState5 = 0;           
+int lastButtonState5 = 0;
+int buttonState6 = 0;
+int lastButtonState6 = 0;
 int buttonState7 = 0;
 int lastButtonState7 = 0;
 int buttonState8 = 0;         
@@ -78,7 +91,7 @@ int plus = 0;
 int minus = 0;
 
 DFRobotIRPosition myDFRobotIRPosition;
-FusionPhaser myFusionPhaser;
+FusionPhaser myphaser;
 
 int res_x = 1023;              // UPDATE: These values do not need to change
 int res_y = 768;               // UPDATE: These values do not need to change
@@ -94,14 +107,17 @@ void setup() {
     
   AbsMouse.init(res_x, res_y);            
 
-  pinMode(_triggerPin, INPUT_PULLUP);         // Set pin modes
+  pinMode(_tiggerPin, INPUT_PULLUP);         // Set pin modes
+  pinMode(_upPin, INPUT_PULLUP);
+  pinMode(_downPin, INPUT_PULLUP);
+  pinMode(_leftPin, INPUT_PULLUP);
+  pinMode(_rightPin, INPUT_PULLUP);          // Set pin modes
   pinMode(_APin, INPUT_PULLUP);
   pinMode(_BPin, INPUT_PULLUP);
   pinMode(_startPin, INPUT_PULLUP);  
   pinMode(_selectPin, INPUT_PULLUP);
-  pinMode(_caliPin, INPUT_PULLUP);       
+  pinMode(_reloadPin, INPUT_PULLUP);       
   pinMode(_pedalPin, INPUT_PULLUP);
-
 
   AbsMouse.move((res_x / 2), (res_y / 2));          // Set mouse position to centre of the screen
   
@@ -111,6 +127,7 @@ void setup() {
 
 
 void loop() {
+
 /* ------------------ START/PAUSE MOUSE ---------------------- */
 
 
@@ -152,7 +169,7 @@ void loop() {
     AbsMouse.move(conMoveXAxis, conMoveYAxis);
     getPosition();
 
-    MoveYAxis = map (finalY, (yCenter + ((myFusionPhaser.H() * (yOffset / 100)) / 2)), (yCenter - ((myFusionPhaser.H() * (yOffset / 100)) / 2)), 0, res_y);
+    MoveYAxis = map (finalY, (yCenter + ((myphaser.H() * (yOffset / 100)) / 2)), (yCenter - ((myphaser.H() * (yOffset / 100)) / 2)), 0, res_y);
     conMoveXAxis = res_x/2;
     conMoveYAxis = constrain (MoveYAxis, 0, res_y);
     
@@ -179,7 +196,7 @@ void loop() {
     AbsMouse.move(conMoveXAxis, conMoveYAxis);
     getPosition();
 
-    MoveXAxis = map (finalX, (xCenter + ((myFusionPhaser.H() * (xOffset / 100)) / 2)), (xCenter - ((myFusionPhaser.H() * (xOffset / 100)) / 2)), 0, res_x);
+    MoveXAxis = map (finalX, (xCenter + ((myphaser.H() * (xOffset / 100)) / 2)), (xCenter - ((myphaser.H() * (xOffset / 100)) / 2)), 0, res_x);
     conMoveXAxis = constrain (MoveXAxis, 0, res_x);
     conMoveYAxis = res_y/2;
     
@@ -220,8 +237,8 @@ void loop() {
     mouseButtons();
     getPosition();
 
-    MoveXAxis = map (finalX, (xCenter + ((myFusionPhaser.H() * (xOffset / 100)) / 2)), (xCenter - ((myFusionPhaser.H() * (xOffset / 100)) / 2)), 0, res_x);
-    MoveYAxis = map (finalY, (yCenter + ((myFusionPhaser.H() * (yOffset / 100)) / 2)), (yCenter - ((myFusionPhaser.H() * (yOffset / 100)) / 2)), 0, res_y);
+    MoveXAxis = map (finalX, (xCenter + ((myphaser.H() * (xOffset / 100)) / 2)), (xCenter - ((myphaser.H() * (xOffset / 100)) / 2)), 0, res_x);
+    MoveYAxis = map (finalY, (yCenter + ((myphaser.H() * (yOffset / 100)) / 2)), (yCenter - ((myphaser.H() * (yOffset / 100)) / 2)), 0, res_y);
     conMoveXAxis = constrain (MoveXAxis, 0, res_x);
     conMoveYAxis = constrain (MoveYAxis, 0, res_y);
     
@@ -242,9 +259,9 @@ void getPosition() {    // Get tilt adjusted position from IR postioning camera
 
 myDFRobotIRPosition.requestPosition();
     if (myDFRobotIRPosition.available()) {
-    myFusionPhaser.begin(myDFRobotIRPosition.readX(0), myDFRobotIRPosition.readY(0), myDFRobotIRPosition.readX(1), myDFRobotIRPosition.readY(1),myDFRobotIRPosition.readX(2), myDFRobotIRPosition.readY(2),myDFRobotIRPosition.readX(3), myDFRobotIRPosition.readY(3), xCenter, yCenter);
-    finalX = myFusionPhaser.X();
-    finalY = myFusionPhaser.Y();
+    myphaser.begin(myDFRobotIRPosition.readX(0), myDFRobotIRPosition.readY(0), myDFRobotIRPosition.readX(1), myDFRobotIRPosition.readY(1),myDFRobotIRPosition.readX(2), myDFRobotIRPosition.readY(2),myDFRobotIRPosition.readX(3), myDFRobotIRPosition.readY(3), xCenter, yCenter);
+    finalX = myphaser.X();
+    finalY = myphaser.Y();
     }
     else {
     Serial.println("Device not available!");
@@ -254,7 +271,7 @@ myDFRobotIRPosition.requestPosition();
 
 void go() {    // Setup Start Calibration Button
 
-  buttonState1 = digitalRead(_caliPin);
+  buttonState1 = digitalRead(_reloadPin);
 
   if (buttonState1 != lastButtonState1) {
     if (buttonState1 == LOW) {
@@ -270,7 +287,11 @@ void go() {    // Setup Start Calibration Button
 
 void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
 
-  buttonState2 = digitalRead(_triggerPin);
+  buttonState2 = digitalRead(_tiggerPin);
+  buttonState3 = digitalRead(_upPin);  
+  buttonState4 = digitalRead(_downPin);
+  buttonState5 = digitalRead(_leftPin);
+  buttonState6 = digitalRead(_rightPin);   
   buttonState7 = digitalRead(_APin);
   buttonState8 = digitalRead(_BPin);
   buttonState9 = digitalRead(_startPin);      
@@ -287,6 +308,55 @@ void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
     delay(10);
   }
 
+  if (buttonState3 != lastButtonState3) {
+    if (buttonState3 == LOW) {
+    Keyboard.press(_upKey);
+    }
+    else {
+    Keyboard.release(_upKey);
+    }
+    delay(10);
+  }
+
+  if (buttonState4 != lastButtonState4) {     
+    if (buttonState4 == LOW) {
+    Keyboard.press(_downKey);
+    }
+    else {
+    Keyboard.release(_downKey);
+    }
+    delay(10);
+  }
+
+  if (buttonState5 != lastButtonState5) {
+    if (buttonState5 == LOW) {
+    Keyboard.press(_leftKey);
+    }
+    else {
+    Keyboard.release(_leftKey);
+    }
+    delay(10);
+  }
+  
+  if (buttonState6 != lastButtonState6) {
+    if (buttonState6 == LOW) {
+    Keyboard.press(_rightKey);
+    }
+    else {
+    Keyboard.release(_rightKey);
+    }
+    delay(10);
+  }
+
+  if (buttonState7 != lastButtonState7) {
+    if (buttonState7 == LOW) {
+      AbsMouse.press(MOUSE_RIGHT);
+    }
+    else {
+      AbsMouse.release(MOUSE_RIGHT);
+    }
+    delay(10);
+  }
 
   if (buttonState8 != lastButtonState8) {     
     if (buttonState8 == LOW) {
@@ -342,7 +412,7 @@ void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
 
 void mouseCount() {    // Set count down on trigger
 
-  buttonState2 = digitalRead(_triggerPin);
+  buttonState2 = digitalRead(_tiggerPin);
   buttonState3 = digitalRead(_BPin);
   buttonState4 = digitalRead(_APin);   
 
@@ -383,7 +453,7 @@ void mouseCount() {    // Set count down on trigger
 
 void reset() {    // Pause/Re-calibrate button
 
-  buttonState1 = digitalRead(_caliPin);
+  buttonState1 = digitalRead(_reloadPin);
 
   if (buttonState1 != lastButtonState1) {
     if (buttonState1 == LOW) {
@@ -400,7 +470,7 @@ void reset() {    // Pause/Re-calibrate button
 
 void skip() {    // Unpause button
 
-  buttonState1 = digitalRead(_caliPin);
+  buttonState1 = digitalRead(_reloadPin);
 
   if (buttonState1 != lastButtonState1) {
     if (buttonState1 == LOW) {
@@ -431,6 +501,7 @@ void loadSettings() {
     EEPROM.write(1023, 'T');    
   }
 }
+
 
 void PrintResults() {    // Print results for saving calibration
 
