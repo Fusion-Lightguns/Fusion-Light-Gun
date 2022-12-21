@@ -1,9 +1,9 @@
 /*!
- * @file Fusion Phaser_Pro_Micro.ino
- * @brief 10 Button Light Gun sketch for 4 LED setup
- * @n INO file for Fusion Phaser Light Gun ]
+ * @file Fusion Volt_Pro_Micro.ino
+ * @brief Simple 5 Button Light Gun for 4 LED setup
+ * @n INO file for Fusion Volt Light Gun ]
  *
- * @author [Fusion Lightgubs](fusionphaser@gmail.com)
+ * @author [Fusion Lightguns](fusionphaser@gmail.com)
  * @version  V1.01
  * @date  2022
  */
@@ -13,11 +13,15 @@
  *  Step 1: Push Calibration Button
  *  Step 2: Pull Trigger
  *  Step 3: Shoot Center of the Screen (try an do this as acuratley as possible)
- *  Step 4: Mouse should lock to vertiucal axis, use A/B buttons to adjust mouse up/down
+ *  Step 4: Mouse should lock to vertical axis, move mouse up down pul trigger when centered.
  *  Step 5: Pull Trigger
- *  Step 6: Mouse should lock to horizontal axis, use A/B buttons to adjust mouse left/right
+ *  Step 6: Mouse should lock to horizontal axis, move mouse up down pul trigger when centered.
  *  Step 7: Pull Trigger to finish
  *  Step 8: Offset are now saved to EEPROM
+ *
+ *  MAD MAD CREDITS TO SAMCO LIGHTGUN . The base of this code stems from them.
+ *
+ * WARNING THIS IS BUILT FOR A PRO MICRO 32U4 5V.
 */
 
 
@@ -33,13 +37,9 @@ int xCenter = 512;              // Open serial monitor and update these values t
 int yCenter = 450;
 float xOffset = 147;             
 float yOffset = 82;
-       
-char _upKey = KEY_UP_ARROW;        // You can update your keyboard keys here        
-char _downKey = KEY_DOWN_ARROW;              
-char _leftKey = KEY_LEFT_ARROW;             
-char _rightKey = KEY_RIGHT_ARROW;                             
-char _startKey = KEY_RETURN; 
-char _selectKey = KEY_BACKSPACE; 
+                                  
+char _startKey = KEY_RETURN;    		// You can update your keyboard keys here 
+char _selectKey = KEY_ESC; 
 
 int finalX;                 // Values after tilt correction
 int finalY;
@@ -53,16 +53,12 @@ int conMoveYAxis;
 int count = -2;                   // Set intial count
 
 int _tiggerPin = 4;               // Label Pin to buttons
-int _upPin = 6;                
-int _downPin = 7;              
-int _leftPin = 8;             
-int _rightPin = 9;               
-int _APin = A1;                
-int _BPin = A0;              
-int _startPin = A2; 
-int _selectPin = A3;               
-int _reloadPin = 15;
-int _pedalPin = 5;                //NOTE: Pedal needs to connected to pin 4 on 3V boards  
+int _reloadPin = 5; 
+int _startPin = 14; 
+int _selectPin = 16;               
+int _caliPin = 15;
+int _vibPin = 12 ;
+
 
 int buttonState1 = 0;           
 int lastButtonState1 = 0;
@@ -74,18 +70,6 @@ int buttonState4 = 0;
 int lastButtonState4 = 0; 
 int buttonState5 = 0;           
 int lastButtonState5 = 0;
-int buttonState6 = 0;
-int lastButtonState6 = 0;
-int buttonState7 = 0;
-int lastButtonState7 = 0;
-int buttonState8 = 0;         
-int lastButtonState8 = 0;          
-int buttonState9 = 0;           
-int lastButtonState9 = 0;
-int buttonState10 = 0;
-int lastButtonState10 = 0; 
-int buttonState11 = 0;
-int lastButtonState11 = 0; 
 
 int plus = 0;         
 int minus = 0;
@@ -108,16 +92,11 @@ void setup() {
   AbsMouse.init(res_x, res_y);            
 
   pinMode(_tiggerPin, INPUT_PULLUP);         // Set pin modes
-  pinMode(_upPin, INPUT_PULLUP);
-  pinMode(_downPin, INPUT_PULLUP);
-  pinMode(_leftPin, INPUT_PULLUP);
-  pinMode(_rightPin, INPUT_PULLUP);          // Set pin modes
-  pinMode(_APin, INPUT_PULLUP);
-  pinMode(_BPin, INPUT_PULLUP);
   pinMode(_startPin, INPUT_PULLUP);  
   pinMode(_selectPin, INPUT_PULLUP);
-  pinMode(_reloadPin, INPUT_PULLUP);       
-  pinMode(_pedalPin, INPUT_PULLUP);
+  pinMode(_caliPin, INPUT_PULLUP);       
+  pinMode(_reloadPin, INPUT_PULLUP);
+  pinMode(_vibPin, INPUT_PULLUP);
 
   AbsMouse.move((res_x / 2), (res_y / 2));          // Set mouse position to centre of the screen
   
@@ -271,7 +250,7 @@ myDFRobotIRPosition.requestPosition();
 
 void go() {    // Setup Start Calibration Button
 
-  buttonState1 = digitalRead(_reloadPin);
+  buttonState1 = digitalRead(_caliPin);
 
   if (buttonState1 != lastButtonState1) {
     if (buttonState1 == LOW) {
@@ -288,15 +267,9 @@ void go() {    // Setup Start Calibration Button
 void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
 
   buttonState2 = digitalRead(_tiggerPin);
-  buttonState3 = digitalRead(_upPin);  
-  buttonState4 = digitalRead(_downPin);
-  buttonState5 = digitalRead(_leftPin);
-  buttonState6 = digitalRead(_rightPin);   
-  buttonState7 = digitalRead(_APin);
-  buttonState8 = digitalRead(_BPin);
-  buttonState9 = digitalRead(_startPin);      
-  buttonState10 = digitalRead(_selectPin); 
-  buttonState11 = digitalRead(_pedalPin); 
+  buttonState3 = digitalRead(_startPin);      
+  buttonState4 = digitalRead(_selectPin); 
+  buttonState5 = digitalRead(_reloadPin); 
   
   if (buttonState2 != lastButtonState2) {
     if (buttonState2 == LOW) {
@@ -307,68 +280,8 @@ void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
     }
     delay(10);
   }
-
   if (buttonState3 != lastButtonState3) {
     if (buttonState3 == LOW) {
-    Keyboard.press(_upKey);
-    }
-    else {
-    Keyboard.release(_upKey);
-    }
-    delay(10);
-  }
-
-  if (buttonState4 != lastButtonState4) {     
-    if (buttonState4 == LOW) {
-    Keyboard.press(_downKey);
-    }
-    else {
-    Keyboard.release(_downKey);
-    }
-    delay(10);
-  }
-
-  if (buttonState5 != lastButtonState5) {
-    if (buttonState5 == LOW) {
-    Keyboard.press(_leftKey);
-    }
-    else {
-    Keyboard.release(_leftKey);
-    }
-    delay(10);
-  }
-  
-  if (buttonState6 != lastButtonState6) {
-    if (buttonState6 == LOW) {
-    Keyboard.press(_rightKey);
-    }
-    else {
-    Keyboard.release(_rightKey);
-    }
-    delay(10);
-  }
-
-  if (buttonState7 != lastButtonState7) {
-    if (buttonState7 == LOW) {
-      AbsMouse.press(MOUSE_RIGHT);
-    }
-    else {
-      AbsMouse.release(MOUSE_RIGHT);
-    }
-    delay(10);
-  }
-
-  if (buttonState8 != lastButtonState8) {     
-    if (buttonState8 == LOW) {
-      AbsMouse.press(MOUSE_MIDDLE);
-    }
-    else {
-      AbsMouse.release(MOUSE_MIDDLE);
-    }
-    delay(10);
-  }
-  if (buttonState9 != lastButtonState9) {
-    if (buttonState9 == LOW) {
     Keyboard.press(_startKey);
     }
     else {
@@ -377,8 +290,8 @@ void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
     delay(10);
   }
   
-  if (buttonState10 != lastButtonState10) {
-    if (buttonState10 == LOW) {
+  if (buttonState4 != lastButtonState4) {
+    if (buttonState4 == LOW) {
     Keyboard.press(_selectKey);
     }
     else {
@@ -387,8 +300,8 @@ void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
     delay(10);
   }
 
-  if (buttonState11 != lastButtonState11) {
-    if (buttonState11 == LOW) {
+  if (buttonState5 != lastButtonState5) {
+    if (buttonState5 == LOW) {
       AbsMouse.press(MOUSE_RIGHT);
     }
     else {
@@ -400,21 +313,13 @@ void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
   lastButtonState2 = buttonState2;
   lastButtonState3 = buttonState3;
   lastButtonState4 = buttonState4;      
-  lastButtonState5 = buttonState5;
-  lastButtonState6 = buttonState6;
-  lastButtonState7 = buttonState7;
-  lastButtonState8 = buttonState8;
-  lastButtonState9 = buttonState9;
-  lastButtonState10 = buttonState10; 
-  lastButtonState11 = buttonState11;     
+  lastButtonState5 = buttonState5;    
 }
 
 
 void mouseCount() {    // Set count down on trigger
 
   buttonState2 = digitalRead(_tiggerPin);
-  buttonState3 = digitalRead(_BPin);
-  buttonState4 = digitalRead(_APin);   
 
   if (buttonState2 != lastButtonState2) {
     if (buttonState2 == LOW) {
@@ -425,35 +330,13 @@ void mouseCount() {    // Set count down on trigger
     delay(10);
   }
 
-  if (buttonState3 != lastButtonState3) {
-    if (buttonState3 == LOW) {
-      plus = 1;
-    }
-    else {
-      plus = 0;
-    }
-    delay(10);
-  }
-
-  if (buttonState4 != lastButtonState4) {     
-    if (buttonState4 == LOW) {
-      minus = 1;
-    }
-    else {
-      minus = 0;
-    }
-    delay(10);
-  }
-
-  lastButtonState2 = buttonState2;
-  lastButtonState3 = buttonState3;
-  lastButtonState4 = buttonState4;            
+  lastButtonState2 = buttonState2;       
 }
 
 
 void reset() {    // Pause/Re-calibrate button
 
-  buttonState1 = digitalRead(_reloadPin);
+  buttonState1 = digitalRead(_caliPin);
 
   if (buttonState1 != lastButtonState1) {
     if (buttonState1 == LOW) {
@@ -470,7 +353,7 @@ void reset() {    // Pause/Re-calibrate button
 
 void skip() {    // Unpause button
 
-  buttonState1 = digitalRead(_reloadPin);
+  buttonState1 = digitalRead(_caliPin);
 
   if (buttonState1 != lastButtonState1) {
     if (buttonState1 == LOW) {
