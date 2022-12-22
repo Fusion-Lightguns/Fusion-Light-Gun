@@ -42,7 +42,7 @@
 
     - Close gun back up. 
     
-    - Well done yuve completed the build.
+    - Well done youve completed the build.
 
 
 # Other Shells Follow These Directions
