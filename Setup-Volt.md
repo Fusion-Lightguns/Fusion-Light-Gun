@@ -1,64 +1,81 @@
 # Fusion Volt Setup -------------------- Version 1.00
 
-# LED Setup 
 
-1. Unwrap LEDS and figure out wher e your gonna plug in 
+# LED SEtup for Fusion Phaser
 
-2. Mount LEDS in a cross ponts shape. Top of TV in center, left of TV in center and so on.
+With LED setup you have two choices, USB BAR or Loose.
 
-3. For further LED setup/calbration see Step 6 in Software Setup below
+USB Bar use IR LEDs in a usb wii bar.
 
-# Software Setup
+Loose uses a IR LED Kit or DIY IR LEDS on wires.
 
-1. Plug Gun into Pi/PC
+# USB Bar Setup
 
-2. Extract Fusion-Lightguns.zip
+    - Find middle of TV
 
-3. For quick calibration (maybe well see)
+    - Place USB Bars in center top & bottom of tv/screen.
+
+    - Plug USB Bars into a power supply.
+
+    - Calibrate gun
+
+    - Enjoy
+
+# Loose LED Setup 
+
+    - Find middle of TV
+
+    - Put two leds on top of tv and on bottom of tv, equal distance from the middle and edge of TV
+
+    - Calibrate gun
+    
+    - Enjoy
+
+
+# Calibration
+
+- Plug Gun into Pi/PC
 
 - Press calibration on gun
 
-- Shoot Top Left Then Bottom Right
+- Shoot Center of screen as accurately as possible
 
-4. Advanced Calibration
+- Move gun up/down shoot center of screen
 
-- For windows follow 3a
+- Move gun left/right shoot center of screen
 
-- For Linux use 3b
+- Shoot to finish
 
-4a. Windows
-
-- Plug in a keyboard
+# Advanced Calibration
 
 - Plug in Fusion Volt
 
-- Open \Fusion-Lightguns\Software\Fusion-Guns-Tool\Fusion-Guns-Tool.exe
+- Download this github : COMING SOON
 
-- Click on Calibrate 
+- Extract somewhere 
 
-- Follow on screen instructions
+- Open Fusion-Gun-Tool Folder
+
+- Open Advance-Calibrate.mp4
+
+- Follow Video instructions.
+
+# LED ADvanced Setup
+
+- Plug in LEDS
+
+- Download this github : COMING SOON
+
+- Extract somewhere 
+
+- Open Fusion-Gun-Tool Folder
+
+- Open Advance-Calibrate.mp4
+
+- Follow Video instructions.
 
 
-4b. Linux/Pi
 
-- Plug in a keyboard
 
-- Plug in Fusion Volt
 
-- Install Wine to run windows program. Linux program work in progress
-
-- Open \Fusion-Lightguns\Software\Fusion-Guns-Tool\Fusion-Guns-Tool.exe
-
-- Click on Calibrate 
-
-- Follow on screen instructions
-
-5. Click Save Calibration
-
-6. Click on LED Fine Tune (6-8 optional)
-
-7. Check out on screen LED Guide lines 
-
-8. Move LEDS to match Guide Lines 
-
-9. Close Fusion-Guns-Tool
+6. Close Fusion-Gun-Tool
