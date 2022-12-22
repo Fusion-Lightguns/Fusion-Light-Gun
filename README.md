@@ -24,7 +24,7 @@
 
      - Can I buy it premade?
      
-          Thats the goal in time lol.
+          TIn time my freind
           
      - Can I help with development?
      
@@ -34,4 +34,4 @@
           
       - How do I setuo the gun?
       
-          Please See: ' https://github.com/Fusion-Lightguns/Fusion-Volt/blob/main/Setup-Volt.md '
+          Please See: https://github.com/Fusion-Lightguns/Fusion-Volt/blob/main/Setup-Volt.md
