@@ -1,5 +1,5 @@
 /*!
- * @file Fusion Volt_Pro_Micro.ino
+ * @file Fusion_Volt_Pro_Micro.ino
  * @brief Simple 5 Button Light Gun for 4 LED setup
  * @n INO file for Fusion Volt Light Gun ]
  *
@@ -20,8 +20,6 @@
  *  Step 8: Offset are now saved to EEPROM
  *
  *  MAD MAD CREDITS TO SAMCO LIGHTGUN . The base of this code stems from them.
- *
- * WARNING THIS IS BUILT FOR A PRO MICRO 32U4 5V.
 */
 
 
@@ -57,7 +55,7 @@ int _reloadPin = 5;
 int _startPin = 14; 
 int _selectPin = 16;               
 int _caliPin = 15;
-int _vibPin = 12 ;
+int _vibPin = 12;
 
 
 int buttonState1 = 0;           
@@ -96,7 +94,7 @@ void setup() {
   pinMode(_selectPin, INPUT_PULLUP);
   pinMode(_caliPin, INPUT_PULLUP);       
   pinMode(_reloadPin, INPUT_PULLUP);
-  pinMode(_vibPin, INPUT_PULLUP);
+  pinMode(_vibPin, OUTPUT);
 
   AbsMouse.move((res_x / 2), (res_y / 2));          // Set mouse position to centre of the screen
   
@@ -274,6 +272,7 @@ void mouseButtons() {    // Setup Left, Right & Middle Mouse buttons
   if (buttonState2 != lastButtonState2) {
     if (buttonState2 == LOW) {
       AbsMouse.press(MOUSE_LEFT);
+      vibmotor;
     }
     else {
       AbsMouse.release(MOUSE_LEFT);
@@ -367,6 +366,13 @@ void skip() {    // Unpause button
   lastButtonState1 = buttonState1;
 }
 
+void vibmotor()
+{
+  digitalWrite(_vibPin, HIGH); //vibrate
+  delay(1000);  // delay one second
+  digitalWrite(_vibPin, LOW);  //stop vibrating
+  delay(1000); //wait 50 seconds.
+}
 
 void loadSettings() {
   if (EEPROM.read(1023) == 'T') {
