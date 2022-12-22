@@ -32,6 +32,6 @@
           
           If you wanna donate $$. ATM I dont have anything setup to accept monetary donations.
           
-      - How do I setuo the gun?
+      - How do I setup the gun?
       
           Please See: https://github.com/Fusion-Lightguns/Fusion-Volt/blob/main/Setup-Volt.md
