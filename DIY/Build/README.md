@@ -32,7 +32,7 @@
 
     - Mount the DFRobot Camera.
 
-    - Wire everything to microprocessor.
+    - Wire everything to microprocessor. ( Follow pin layout for your processor)
 
     - Take handle and cut a spot for cord to run. You will see where two nerf bullets go choose one of those & cut it.
 
