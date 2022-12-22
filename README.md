@@ -6,11 +6,6 @@
 
 - https://github.com/Fusion-Lightguns/Fusion-Phaser
      
-# How far along is this project ? Updated 12/21/22
-
-- Prototype complete. Works great. 
-
-- Updated code 
 
 # Button Mapping (Nerf Elite Volt Shell)
 
