@@ -16,7 +16,7 @@
 
     - Get a .25 inch drill bit.
 
-    - Drill 2 small holes  on top of gun. You will see it angle up go in the middle of that about 2 inch from the back. ( This will be your 6mm button mounting holes.
+    - Drill 2 small holes  on top of gun. You will see it angle up go in the middle of that about 2 inch from the back. ( These holes will mount 6mm buttons).
 
     - Take a dremel & hollow out where pulll on nerf gun was to match a 12mm button.
 
