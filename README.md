@@ -19,6 +19,16 @@
      
      - Side Button 2 -----Escape
      
+# Compatible MicroProcessors
+
+     - Pro Micro
+     
+     - Itsy Bitsy 32u4
+     
+     - Teensy 3.0
+     
+     - Teensy LC
+     
      
 # Freguently Asked Questions
 
