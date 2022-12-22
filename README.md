@@ -1,30 +1,28 @@
 # Whats this ? 
 
-     A open source Pi Pico Infared Light gun made from a nerf or premade  gun shell.
+     A open source  Infared Light gun made from a nerf or premade gun shell, using Fusion Phaser parts
 
 # Whats a Fusion Phaser? 
 
 - https://github.com/Fusion-Lightguns/Fusion-Phaser
      
-# How far along is this project ? Updated 12/1/22
+# How far along is this project ? Updated 12/21/22
 
-- Ordered a Nerf Elte Volt 2.0 today.
+- Prototype complete. Works great. 
 
-- Watched tear down videos.
+- Updated code 
 
-- Ordered all necessary parts to build
-
-# Planned Button Mapping (Nerf Elite Volt)
+# Button Mapping (Nerf Elite Volt Shell)
 
      On The Lightgun---------------Keyboard button
      
      - Trigger ----------------------Mouse 1
      
-     - Front Trigger ----------------Mouse 2
+     - Back Button ----------------Mouse 2
 
-     - Left side of gun button ------Mouse 3
+     - Side Button 1 ------ Backspace
      
-     - Right side of gun button -----Escape
+     - Side Button 2 -----Escape
      
      
 # Freguently Asked Questions
@@ -38,4 +36,14 @@
           If you are a coder please fork and pull request. 
           
           If you wanna donate $$. ATM I dont have anything setup to accept monetary donations.
+          
+      - How do i calibrate?
+          1: Push Calibration Button ( located below trigger on grip. Press with a toothpick)
+          2: Pull Trigger
+          3: Shoot Center of the Screen (try an do this as acuratley as possible)
+          4: Mouse should lock to vertical axis, move mouse up down pul trigger when centered.
+          5: Pull Trigger
+          6: Mouse should lock to horizontal axis, move mouse up down pul trigger when centered.
+          7: Pull Trigger to finish
+          8: Offset are now saved to EEPROM
          
