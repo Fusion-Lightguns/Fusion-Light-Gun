@@ -20,6 +20,9 @@
      
      - Side Button 2 -----Escape
      
+     - Calibrate is loacated under trigger in bottom of gun
+    
+     
 # Compatible MicroProcessors
 
      - Pro Micro
