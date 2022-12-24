@@ -23,9 +23,9 @@
 
 # Loose LED Setup 
 
-    - Find middle of TV
-
-    - Put two leds on top of tv and on bottom of tv, equal distance from the middle and edge of TV
+    - Put two leds on top of tv and on bottom of tv, on the edges of TV in the corner.
+    
+        So top left, top right , bottom left & bottom right
 
     - Calibrate gun
     
@@ -46,19 +46,6 @@
 
     - Shoot to finish
 
-# Advanced Calibration
-
-    - Plug in Fusion Volt
-
-    - Download this github : COMING SOON
-
-    - Extract somewhere 
-    
-    - Open Fusion-Gun-Tool Folder
-
-    - Open Advance-Calibrate.mp4 (MAKE SURE THAT IT FULLSCREEN . YES THE WHOLE SCREEN)
-
-    - Follow Video instructions.
 
 # LED Fine Tuning
 
