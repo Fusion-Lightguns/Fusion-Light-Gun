@@ -38,7 +38,7 @@
 
      - Can I buy it premade?
      
-          TIn time my freind
+          In time my freind
           
      - Can I help with development?
      
