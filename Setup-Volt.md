@@ -5,7 +5,7 @@
 
     With LED setup you have two choices, USB BAR or Loose.
 
-    USB Bar use IR LEDs in a usb wii bar.
+    USB Bar use IR LEDs in a usb wii bar. NOT RECOMMENDED FOR LARGE TVs
 
     Loose uses a IR LED Kit or DIY IR LEDS on wires.
 
