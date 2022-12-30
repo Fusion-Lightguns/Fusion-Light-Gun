@@ -31,6 +31,9 @@
 
      - Pro Micro
      
+# If you are DIYing & want more buttons and features see DIY Phaser instead.
+
+     https://github.com/Fusion-Lightguns/Fusion-Phaser/tree/main/DIY
      
 # Freguently Asked Questions
 
