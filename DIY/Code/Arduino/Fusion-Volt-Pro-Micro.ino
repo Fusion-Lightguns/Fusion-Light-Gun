@@ -1,6 +1,6 @@
 /*!
- * @file FusionVolt_2.0_4IR_BETA.ino
- * @brief 10 Button Light Gun sketch for 4 LED setup
+ * @file FusionVoltino
+ * @brief 7 Button Light Gun sketch for 4 LED setup
  * @n INO file for FusionVolt Light Gun 4 LED setup
  *
  * @copyright   FusionVolt, https://github.com/samuelballantyne, June 2020
@@ -29,7 +29,7 @@
 #include <Keyboard.h>
 #include <AbsMouse.h>
 #include <DFRobotIRPosition.h>
-#include <FusionVoltBeta.h>
+#include <FusionVolt.h>
 #include <EEPROM.h>
 
 int xCenter = 512;              // Open serial monitor and update these values to save calibration
@@ -61,7 +61,7 @@ int _BPin = A0;
 int _startPin = A2; 
 int _selectPin = A3;               
 int _calibratePin = 13;
-int _reloadPin = ;                //NOTE: Pedal needs to connected to pin 4 on 3V boards  
+int _reloadPin = 5;                //NOTE: Pedal needs to connected to pin 4 on 3V boards  
 
 int buttonState1 = 0;           
 int lastButtonState1 = 0;
@@ -79,18 +79,13 @@ int buttonState7 = 0;
 int lastButtonState7 = 0;
 int buttonState8 = 0;         
 int lastButtonState8 = 0;          
-int buttonState9 = 0;           
-int lastButtonState9 = 0;
-int buttonState10 = 0;
-int lastButtonState10 = 0; 
-int buttonState11 = 0;
-int lastButtonState11 = 0; 
+
 
 int plus = 0;         
 int minus = 0;
 
 DFRobotIRPosition myDFRobotIRPosition;
-FusionVoltBeta myFusionVolt;
+FusionVolt myFusionVolt;
 
 int res_x = 1023;              // UPDATE: These values do not need to change
 int res_y = 768;               // UPDATE: These values do not need to change
