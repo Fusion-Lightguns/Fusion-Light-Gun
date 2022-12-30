@@ -1,5 +1,5 @@
 /*!
- * @file FusionVoltino
+ * @file FusionVolt.ino
  * @brief 7 Button Light Gun sketch for 4 LED setup
  * @n INO file for FusionVolt Light Gun 4 LED setup
  *
@@ -55,13 +55,13 @@ int conMoveYAxis;
 
 int count = -2;                   // Set intial count
 
-int _tiggerPin = 7;               // Label Pin to buttons         
+int _tiggerPin = 4;               // Label Pin to buttons         
 int _APin = A1;                
 int _BPin = A0;              
 int _startPin = A2; 
 int _selectPin = A3;               
-int _calibratePin = 13;
-int _reloadPin = 5;                //NOTE: Pedal needs to connected to pin 4 on 3V boards  
+int _calibratePin = 15;
+int _reloadPin = 5;                  
 
 int buttonState1 = 0;           
 int lastButtonState1 = 0;
