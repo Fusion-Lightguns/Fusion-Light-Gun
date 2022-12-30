@@ -1,7 +1,8 @@
 # Whats this ? 
 
-     A simple open source  Infared 5 button Light gun.
-     Made from a nerf or premade gun shell, using Fusion Phaser parts
+     A simple open source  Infared 4 or 6 button Light gun. (5 or 7 including calibrate)
+     
+     Made from a nerf or premade gun shell, using Fusion Phaser parts/code
 
 # Whats a Fusion Phaser? 
 
