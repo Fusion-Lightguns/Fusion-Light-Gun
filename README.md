@@ -16,9 +16,13 @@
      
      - Back Button ----------------Mouse 2
 
-     - Side Button 1 ------ Backspace
+     - Left Side Button 1 ------ Backspace
      
-     - Side Button 2 -----Escape
+     - Left Side Button 2 -----Escape
+     
+     - Right Side Button 1 -----Alt
+     
+     - Right Side Button 2 -----F4
      
      - Calibrate is loacated under trigger in bottom of gun
     
