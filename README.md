@@ -10,19 +10,19 @@
 
 # Button Mapping (Nerf Elite Volt Shell)
 
-     On The Lightgun---------------Keyboard button
+     On The Lightgun (In Code)-------------Keyboard button
      
-     - Trigger ----------------------Mouse 1
+     - Trigger ----------------------------Mouse 1
      
-     - Back Button ----------------Mouse 2
+     - Back Button (Reload) ----------------Mouse 2
 
-     - Left Side Button 1 ------ Backspace
+     - L Side Button 1 (Start) -------------Alt
      
-     - Left Side Button 2 -----Escape
+     - L Side Button 2 (Select) ------------F4
      
-     - Right Side Button 1 -----Alt
+     - R Side Button 1 (A Key) -------------Return
      
-     - Right Side Button 2 -----F4
+     - R Side Button 2 (B Key) -------------Escape
      
      - Calibrate is loacated under trigger in bottom of gun
     
