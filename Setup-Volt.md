@@ -1,7 +1,7 @@
-# Fusion Volt Setup -------------------- Version 1.00
+# Fusion Elite Setup -------------------- Version 1.00
 
 
-# LED SEtup for Fusion Phaser
+# LED Setup for Fusion Elite
 
     With LED setup you have two choices, USB BAR or Loose.
 
