@@ -50,4 +50,4 @@
           
       - How do I setup the gun?
       
-          Please See: https://github.com/Fusion-Lightguns/Fusion-Volt/blob/main/Setup-Volt.md
+          Please See: https://github.com/Fusion-Lightguns/Fusion-Volt/blob/main/Setup-Elite.md
