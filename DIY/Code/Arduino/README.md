@@ -1,24 +1,24 @@
-# Arduino Code Stuff For Fusion Volt
+# Arduino Code Stuff For Fusion Elite
 
 # How to use
 
    1. Download all files in this folder
       
-   2. Extract Fusion-Volt-Pro-Micro.zip to your desktop
+   2. Extract Fusion-Elite-Pro-Micro.zip to your desktop
 
-   3. Extract Fusion-Volt-Libraries.zip where arduino has libraries
+   3. Extract Fusion-Elite-Libraries.zip where arduino has libraries
 
         Example: C:\Users\YOURNAME\Documents\Arduino\libraries
         
         This should be a folder with two files.
       
-   4. Extract Fusion-Volt-Boards.zip where arduino has its prefences stored 
+   4. Extract Fusion-Elite-Boards.zip where arduino has its prefences stored 
          
          This makes your Gun register in Retroarch, PC, Pi, etc as Fusion Volt DIY
          
-   5. Open Fusion-Volt-Pro-Micro.ino in Arduino IDE
+   5. Open Fusion-Elite-Pro-Micro.ino in Arduino IDE
    
-   6. Select Fusion Volt Board in IDE
+   6. Select Fusion Elite Board in IDE
    
    7. Plug in the Pro Micro
    
@@ -26,6 +26,6 @@
    
    9. Press Upload code.
    
-   10. See Volt Setup after code is installed.
+   10. See Elite Setup after code is installed.
    
-            https://github.com/Fusion-Lightguns/Fusion-Volt/blob/main/Setup-Volt.md
+            https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Setup-Elite.md
