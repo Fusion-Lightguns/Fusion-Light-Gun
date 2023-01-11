@@ -4,7 +4,7 @@
 
    1. Download all files in this folder
       
-   2. Extract Fusion-Elite-Pro-Micro.zip to your desktop
+   2. Extract Fusion-Elite-ProMicro.zip to your desktop
 
    3. Extract Fusion-Elite-Libraries.zip where arduino has libraries
 
