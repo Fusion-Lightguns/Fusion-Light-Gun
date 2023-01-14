@@ -13,17 +13,13 @@
 
      On The Lightgun (In Code)-------------Keyboard button
      
-     - Trigger ----------------------------Mouse 1
-     
-     - Back Button (Reload) ----------------Mouse 2
+     - Trigger ---------------------------- Mouse 1
 
-     - L Side Button 1 (Start) -------------Alt
-     
-     - L Side Button 2 (Select) ------------F4
-     
+     - L Side Button Relaod --------------- Mouse 2
+          
      - R Side Button 1 (A Key) -------------Return
      
-     - R Side Button 2 (B Key) -------------Escape
+     - Joystick on the back
      
      - Calibrate is loacated under trigger in bottom of gun
     
