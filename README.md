@@ -15,11 +15,9 @@
      
      - Trigger ---------------------------- Mouse 1
 
-     - R Side Button Relaod --------------- Mouse 2
+     - R Side Button (Relaod) --------------- Mouse 2
           
-     - L Side Button 1 (A Key) -------------Tab
-
-     - L Side Button 1 (A Key) -------------Tab
+     - L Side Button (Hotkey) ------------- Mouse Middle
 
      - Joystick on the back
      
