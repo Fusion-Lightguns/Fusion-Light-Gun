@@ -15,10 +15,12 @@
      
      - Trigger ---------------------------- Mouse 1
 
-     - L Side Button Relaod --------------- Mouse 2
+     - R Side Button Relaod --------------- Mouse 2
           
-     - R Side Button 1 (A Key) -------------Return
-     
+     - L Side Button 1 (A Key) -------------Tab
+
+     - L Side Button 1 (A Key) -------------Tab
+
      - Joystick on the back
      
      - Calibrate is loacated under trigger in bottom of gun
