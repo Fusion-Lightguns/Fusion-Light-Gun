@@ -15,14 +15,17 @@
      
      - Trigger ---------------------------- Mouse 1
 
-     - R Side Button (Relaod) --------------- Mouse 2
-          
-     - L Side Button (Hotkey) ------------- Mouse Middle
-
-     - Joystick on the back
+     - R Side Button 1 (A) --------- Left Control
      
-     - Calibrate is loacated under trigger in bottom of gun
+     - R Side Button 2 (Start) ----- Left Alt
+     
+     - L Side Button 1 (B) --------- Escape
+          
+     - L Side Button (Select) ------ Return
+     
+     - Front Button (Calibrate) ---- F4
     
+     - Joystick on the back
      
 # Compatible MicroProcessors
 
