@@ -26,6 +26,10 @@
    
    9. Press Upload code.
    
+   10. Follow Pro Micro Pins.txt (inside FusionElite_ProMicro.zip)  to determine pin locations
+   
+   11. Solder everything to required pins
+   
    10. See Elite Setup after code is installed.
    
             https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Setup-Elite.md
