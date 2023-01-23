@@ -22,7 +22,7 @@
      - Best button Layout I could figure out for gaming.
 
 
-# Button Mapping (Nerf Elite Volt Shell)
+# Button Mapping
 
      On The Lightgun (In Code)-------------Keyboard button
      
