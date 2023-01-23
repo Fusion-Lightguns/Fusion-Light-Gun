@@ -1,6 +1,6 @@
 # Build Instructions for Fusion Elite & other Lightguns using Fusion Phaser parts
 
- Video instructions can be found here: COMING SOON
+ Elite instructions can be found here: COMING SOON
 
 # Volt Nerf Gun Follow These Instructions
 
