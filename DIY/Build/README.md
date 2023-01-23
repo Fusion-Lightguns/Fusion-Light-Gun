@@ -1,4 +1,4 @@
-# Build Instructions for Fusion Elite & other Lightguns using Fusion Phaser parts
+# Build Instructions for Fusion Elite 
 
  Elite instructions can be found here: COMING SOON
 
