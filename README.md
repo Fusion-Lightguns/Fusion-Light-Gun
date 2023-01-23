@@ -1,8 +1,25 @@
 # Whats this ? 
 
-     A simple open source  Infared 4 or 6 button Light gun. (5 or 7 including calibrate)
+     A open source infared Light gun.  
      
-     Made from a premade gun shell.
+     
+# Features
+
+     - Easy calibration 
+     
+     - 7 Buttons & Joystick on gun
+          
+     - Open source with DIY instructions & Files. Wanna build yourself do it lol .
+     
+     - Made by gamers for gamers.
+      
+     - Trigger pull and power LED
+          
+     - Built with Linux/RetroPie in mind . ( Making Setup Scripts)
+     
+     - Extra buttons in code. If you want add or mod a new gun
+     
+     - Best button Layout I could figure out for gaming.
 
 
 # Button Mapping (Nerf Elite Volt Shell)
