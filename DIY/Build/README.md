@@ -18,9 +18,7 @@
 
     - Drill 2 holes in "volt" words on front sides on gun.
 
-    - Take a dremel & hollow out where pulll on nerf gun was to match a 16mm button.
-
-    - Mount your microprocessor above trigger where barrel used to be.
+    - Take a dremel & hollow out where pull on nerf gun was to match a 16mm button.
 
     - Mount your four 16 mm buttons. (solder them all that if need be)
     
@@ -33,6 +31,8 @@
     - Mount the DFRobot Camera.
 
     - Wire everything to microprocessor. ( Follow pin layout for your processor)
+    
+    - Mount your microprocessor above trigger where barrel used to be.
 
     - Take handle and cut a spot for cord to run. You will see where two nerf bullets go choose one of those & cut it.
 
