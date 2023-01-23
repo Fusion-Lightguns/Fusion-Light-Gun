@@ -47,17 +47,16 @@
     - Shoot to finish
 
 
-# LED Fine Tuning
+# Calibration Fine Tuning
 
-    - Plug in LEDS
 
-    - Download this github : COMING SOON
+    - Download this github : https://github.com/Fusion-Lightguns/Fusion-Gun-Tool
 
     - Extract somewhere 
 
     - Open Fusion-Gun-Tool Folder
 
-    - Open LED-Fine-Tune.mp4 (MAKE SURE THAT IT FULLSCREEN . YES THE WHOLE SCREEN)
+    - Open Fusion-Gun-Tool-Video.mp4 (MAKE SURE THAT IT FULLSCREEN . YES THE WHOLE SCREEN)
 
     - Follow Video instructions.
 
