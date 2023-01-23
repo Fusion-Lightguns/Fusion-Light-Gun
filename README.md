@@ -14,6 +14,8 @@
      On The Lightgun (In Code)-------------Keyboard button
      
      - Trigger ---------------------------- Mouse 1
+     
+     - Front Trigger ---------------------- Mouse 2
 
      - R Side Button 1 (A) --------- Left Control
      
@@ -25,15 +27,12 @@
      
      - Front Button (Calibrate) ---- F4
     
-     - Joystick on the back
+     - Dpad on the back
      
 # Compatible MicroProcessors
 
      - Pro Micro
-     
-# If you are DIYing & want more buttons and features see DIY Phaser instead.
 
-     https://github.com/Fusion-Lightguns/Fusion-Phaser/tree/main/DIY
      
 # Freguently Asked Questions
 
