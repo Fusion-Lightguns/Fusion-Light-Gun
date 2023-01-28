@@ -24,19 +24,21 @@
 
 # Button Mapping
 
-     On The Lightgun (In Code)-------------Keyboard button
+     On The Lightgun (In Code)-------------Keyboard button 
+
+     Updated V 1.20
      
      - Trigger ---------------------------- Mouse 1
      
      - Front Trigger ---------------------- Mouse 2
 
-     - R Side Button 1 (A) --------- Left Control
+     - R Side Button 1 (A) --------- Left Alt
      
-     - R Side Button 2 (Start) ----- Left Alt
+     - R Side Button 2 (Start) ----- Number 1
      
      - L Side Button 1 (B) --------- Escape
           
-     - L Side Button (Select) ------ Return
+     - L Side Button (Select) ------ Number 5
      
      - Front Button (Calibrate) ---- F4
     
