@@ -9,7 +9,7 @@ https://www.dfrobot.com/product-1088.html
 
 https://amzn.to/3P90VfL
 
-# 16MM Buttons 5 Set
+# 16MM Buttons 7 of em.
 
 https://amzn.to/3UPP5Zm
 
