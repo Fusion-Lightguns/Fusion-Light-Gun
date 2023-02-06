@@ -5,9 +5,6 @@
 
 https://www.dfrobot.com/product-1088.html
 
-# Vib Motors $2 a piece
-
-https://amzn.to/3P90VfL
 
 # 16MM Buttons 7 of em.
 
