@@ -26,21 +26,23 @@
 
     Lightguns wouldnt really be useful without the emus for your games.
     
----- Don Leni 
-
-    Advice, Links and testing. 
     
---- Chris Paglino 
-
-    Advice & testing.
     
---- Derek Switzer
+# Credited Backers 
 
-    Testing
+    - Adrian CF
+
+
+# Credited Testers 
+
+    - Don Leni 
+
+    - Derek Switzer 
     
---- Dave Sousa
-
-    Testing 
+    - Chris Paglino
+    
+    - Dave Sousa
+    
     
 
     
