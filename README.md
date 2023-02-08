@@ -67,4 +67,4 @@
 
 # Credits 
 
-- https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Credits/General%20Credits.md
+- https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Credits/Credits.md
