@@ -32,9 +32,16 @@ https://www.aliexpress.us/item/3256804336848130.html?spm=a2g0o.productlist.0.0.7
 https://amzn.to/3iOo7Ui
 
 # Dpad Board 
+
 https://www.amazon.com/SchmalzTech-Electronic-Circuit-Prototype-ST-PERF-1-1/dp/B09QMNV6J1/ref=sr_1_3?crid=BK8NMQMHNO41&keywords=1+inch+perf+board&qid=1675439887&sprefix=1+inch+perf+%2Caps%2C881&sr=8-3
 
+# 3D Printed Dpad 
+
+https://www.thingiverse.com/thing:5838903
+
+
 # 5mm Push Buttons
+
 https://www.amazon.com/dp/B07X8T9D2Q/ref=twister_B07XF3XGWM?_encoding=UTF8&psc=1
 
 
