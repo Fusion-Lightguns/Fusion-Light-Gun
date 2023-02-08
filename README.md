@@ -53,13 +53,13 @@
 
      - Can I buy it premade?
      
-          In time my freind
+          Pre Order Here: https://www.indiegogo.com/projects/fusion-elite--2#/
           
      - Can I help with development?
      
           If you are a coder please fork and pull request. 
           
-          If you wanna donate $$. ATM I dont have anything setup to accept monetary donations.
+          If you wanna donate $$. Build a donate button on website.
           
       - How do I setup the gun?
       
