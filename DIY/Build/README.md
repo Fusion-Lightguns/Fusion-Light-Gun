@@ -47,5 +47,5 @@
 
 # Pin Outs 
 
-![Pinout-Pro-Micro](https://user-images.githubusercontent.com/118452807/218337299-c3e11593-6ba1-4c25-ba32-9d466c30e71e.png)
+![Pinout-Pro-Micro](https://user-images.githubusercontent.com/118452807/218339559-99507b10-6cc6-4cd1-a7ec-387f53007079.png)
 
