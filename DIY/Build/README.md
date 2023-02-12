@@ -1,7 +1,5 @@
 # Build Instructions for Fusion Elite 
 
- Elite instructions can be found here: COMING SOON
-
 # Volt Nerf Gun Follow These Instructions
 
     - Pull gun apart carefully.
