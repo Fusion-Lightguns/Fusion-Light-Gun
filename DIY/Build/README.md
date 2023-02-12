@@ -30,7 +30,7 @@
 
     - Mount the DFRobot Camera.
 
-    - Wire everything to microprocessor. ( Follow pin layout for your processor)
+    - Wire everything to microprocessor. ( Follow pin layout for your processor below)
     
     - Mount your microprocessor above trigger where barrel used to be.
 
@@ -43,4 +43,9 @@
     - Close gun back up. 
     
     - Well done youve completed the build.
+
+
+# Pin Outs 
+
+![Pinout-Pro-Micro](https://user-images.githubusercontent.com/118452807/218337299-c3e11593-6ba1-4c25-ba32-9d466c30e71e.png)
 
