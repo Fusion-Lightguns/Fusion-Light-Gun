@@ -1,4 +1,4 @@
-# Fusion Elite Setup -------------------- Version 1.00
+# Fusion Elite Setup -------------------- Version 1.1
 
 
 # LED Setup for Fusion Elite
@@ -47,17 +47,10 @@
     - Shoot to finish
 
 
-# Calibration Fine Tuning
+# Notes
 
 
-    - Download this github : https://github.com/Fusion-Lightguns/Fusion-Gun-Tool
+    - If you bought fusion Lightguns from a offical retailer it comes with a Calibration tool. 
 
-    - Extract somewhere 
-
-    - Open Fusion-Gun-Tool Folder
-
-    - Open Fusion-Gun-Tool-Video.mp4 (MAKE SURE THAT IT FULLSCREEN . YES THE WHOLE SCREEN)
-
-    - Follow Video instructions.
 
 
