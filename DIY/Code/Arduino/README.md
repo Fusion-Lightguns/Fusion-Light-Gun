@@ -12,9 +12,11 @@
         
         This should be a folder with two files.
                  
-   4. Open up Arduino, then go to the Preferences (File > Preferences). Then, towards the bottom of the window, paste this URL into the "Additional Board Manager URLs" text box:
+   4. Open up Arduino, then go to the Preferences (File > Preferences). 
    
-   https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
+   Then, towards the bottom of the window, paste this URL into the "Additional Board Manager URLs" text box:
+   
+               https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
    
          
    5. Open Fusion-Elite-Pro-Micro.ino in Arduino IDE
