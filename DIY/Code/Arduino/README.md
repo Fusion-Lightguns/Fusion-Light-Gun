@@ -11,21 +11,26 @@
         Example: C:\Users\YOURNAME\Documents\Arduino\libraries
         
         This should be a folder with two files.
+                 
+   4. Open up Arduino, then go to the Preferences (File > Preferences). Then, towards the bottom of the window, paste this URL into the "Additional Board Manager URLs" text box:
+   
+   https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
+   
          
-   4. Open Fusion-Elite-Pro-Micro.ino in Arduino IDE
+   5. Open Fusion-Elite-Pro-Micro.ino in Arduino IDE
    
-   5. Select Fusion Elite Board in IDE
+   6. Select Pro Micro Board in IDE
    
-   6. Plug in the Pro Micro
+   7. Plug in the Pro Micro
    
-   7. Select Port in IDE 
+   8. Select Port in IDE 
    
-   8. Press Upload code.
+   9. Press Upload code.
    
-   9. Follow Pro Micro Pins.txt (inside FusionElite_ProMicro.zip)  to determine pin locations
+   10. Follow Pro Micro Pins.txt (inside FusionElite_ProMicro.zip)  to determine pin locations
+  
+   11. Solder everything to required pins
    
-   10. Solder everything to required pins
-   
-   11. See Elite Setup after code is installed.
+   12. See Elite Setup after code is installed.
    
             https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Setup-Elite.md
