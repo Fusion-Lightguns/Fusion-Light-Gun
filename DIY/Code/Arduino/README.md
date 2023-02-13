@@ -11,25 +11,21 @@
         Example: C:\Users\YOURNAME\Documents\Arduino\libraries
         
         This should be a folder with two files.
-      
-   4. Extract FusionElite-Boards.zip where arduino has its prefences stored 
          
-         This makes your Gun register in Retroarch, PC, Pi, etc as Fusion Volt DIY
-         
-   5. Open Fusion-Elite-Pro-Micro.ino in Arduino IDE
+   4. Open Fusion-Elite-Pro-Micro.ino in Arduino IDE
    
-   6. Select Fusion Elite Board in IDE
+   5. Select Fusion Elite Board in IDE
    
-   7. Plug in the Pro Micro
+   6. Plug in the Pro Micro
    
-   8. Select Port in IDE 
+   7. Select Port in IDE 
    
-   9. Press Upload code.
+   8. Press Upload code.
    
-   10. Follow Pro Micro Pins.txt (inside FusionElite_ProMicro.zip)  to determine pin locations
+   9. Follow Pro Micro Pins.txt (inside FusionElite_ProMicro.zip)  to determine pin locations
    
-   11. Solder everything to required pins
+   10. Solder everything to required pins
    
-   10. See Elite Setup after code is installed.
+   11. See Elite Setup after code is installed.
    
             https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Setup-Elite.md
