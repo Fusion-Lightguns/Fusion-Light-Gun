@@ -26,17 +26,17 @@
 
      On The Lightgun (In Code)-------------Keyboard button 
 
-     Updated V 1.20
+     Updated V 1.4
      
      - Trigger ---------------------------- Mouse 1
      
-     - Front Trigger ---------------------- Mouse 2
+     - Front Trigger (B)---------------------- Escape
 
-     - R Side Button 1 (A) --------- Left Alt
+     - R Side Button 1 (Reload) --------- Mouse 2 
      
      - R Side Button 2 (Start) ----- Number 1
      
-     - L Side Button 1 (B) --------- Escape
+     - L Side Button 1 (A) --------- Enter
           
      - L Side Button (Select) ------ Number 5
      
