@@ -1,0 +1,38 @@
+Pro Micro Pin & Button Layout
+
+Pin #-- On Gun -- Keyboard/Mouse Button-- In Code
+
+___TRIGGERS & CALIBRATE____
+10 ---- Trigger -------- Mouse Left ----- Trigger
+8 --- Front Trigger ----- Escape ------- B Button
+14 ---- Front Button --- F4 ----------- Calibrate
+
+___BUTTONS ON FRONT GRIP___
+16 ---- Front Left----- Mouse Right ---- Reload
+9 --- Front Right ------- Enter ------- A Button
+7 --- Back Left -------- Number 1 ----- Start
+6 --- Back Right ------- Number 5 ------- Select
+
+
+____DPAD BUTTONS____
+A0 -- Up ---------- Up Arrow ---------- Up
+A1 -- Down -------- Down Arrow -------- Down
+A2 -- Left -------- Left Arrow -------- Left
+A3 -- Right ------- Right Arrow -------Right
+
+
+____OTHER NEEDED PINS____
+
+2 ---- SDA on Camera
+3 ---- SDL on Camera
+VCC -- POWER for Camera
+GND -- Ground Pins
+Your Buttons & Camera Need To Be Grounded
+
+____UNUSED ON GUN BUT WRIITEN IN CODE____
+
+4 --- P2 Start ------- Number 2
+5 --- P2 Select ------ Number 6
+15 -- Mouse 3 -------- Mouse Middle
+
+ 
