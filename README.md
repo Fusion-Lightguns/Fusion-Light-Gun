@@ -20,6 +20,8 @@
      - Extra buttons in code. If you want add or mod a new gun
      
      - Best button Layout I could figure out for gaming.
+     
+     - 3D printed shells/case.
 
 
 # Button Mapping
@@ -58,13 +60,13 @@
 
      - Can I buy it premade?
      
-          Pre Order Here: https://www.indiegogo.com/projects/fusion-elite--2#/
+          Working on redoing shell. https://fusion-lightguns.square.site/s/shop
           
      - Can I help with development?
      
           If you are a coder please fork and pull request. 
           
-          If you wanna donate $$. Build a donate button on website.
+          If you wanna donate $$. venmo @fusionlightguns
           
       - How do I setup the gun?
       
