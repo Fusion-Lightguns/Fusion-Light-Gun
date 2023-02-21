@@ -40,11 +40,6 @@ https://www.amazon.com/SchmalzTech-Electronic-Circuit-Prototype-ST-PERF-1-1/dp/B
 https://www.thingiverse.com/thing:5838903
 
 
-# 5mm Push Buttons
-
-https://www.amazon.com/dp/B07X8T9D2Q/ref=twister_B07XF3XGWM?_encoding=UTF8&psc=1
-
-
 # Micro Processors
 
 Make sure to flash the firmware for your choosen board. 
