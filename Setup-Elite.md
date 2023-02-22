@@ -1,7 +1,7 @@
-# Fusion Elite Setup -------------------- Version 1.1
+# Fusion Min Setup -------------------- Version 1.3
 
 
-# LED Setup for Fusion Elite
+# LED Setup for Fusion Mini
 
     With LED setup you have two choices, USB BAR or Loose.
 
@@ -52,5 +52,6 @@
 
     - If you bought fusion Lightguns from a offical retailer it comes with a Calibration tool. 
 
+    - If you DIY or need the tool email me Fusionphaser@gmail.com
 
 
