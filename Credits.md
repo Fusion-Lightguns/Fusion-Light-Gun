@@ -1,4 +1,4 @@
-# General Credits List for Fusion Elite
+# General Credits List for Fusion Mini
 
 ---- Samco Lightgun 
 
