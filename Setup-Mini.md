@@ -52,6 +52,6 @@
 
     - If you bought fusion Lightguns from a offical retailer it comes with a Calibration tool. 
 
-    - If you DIY or need the tool email me Fusionphaser@gmail.com
+    - If you DIY or need the tool see here https://github.com/Fusion-Lightguns/Fusion-Gun-Tool
 
 
