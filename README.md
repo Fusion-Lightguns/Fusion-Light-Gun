@@ -11,17 +11,21 @@
           
      - Open source with DIY instructions & Files. Wanna build yourself do it lol .
      
-     - Made by gamers for gamers.
+     - Made by gamers for gamers. WITH community input .
       
-     - Trigger pull and power LED
-          
+     - 3D Print shells and parts. (Most Open Source)
+     
      - Built with Linux/RetroPie in mind . ( Making Setup Scripts)
      
      - Extra buttons in code. If you want add or mod a new gun
      
      - Best button Layout I could figure out for gaming.
      
-     - 3D printed shells/case.
+     - 4 IR Leds . 2 on top two on bottom.
+     
+     - Designed, assembled and coded in the USA. 
+     
+     - Multi Player/gun Setup different VID's and calibrate button color.
 
 
 # Button Mapping
@@ -70,8 +74,11 @@
           
       - How do I setup the gun?
       
-          Please See: https://github.com/Fusion-Lightguns/Fusion-Volt/blob/main/Setup-Elite.md
+          Please See: https://github.com/Fusion-Lightguns/Fusion-Volt/blob/main/Setup-Min.md
 
+     - What color calibrate is what player? 
+
+          Player 1 = Green, Player 2 = Yellow, Player 3 = Red, Player 4 = Blue
 # Credits 
 
 - https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Credits.md
