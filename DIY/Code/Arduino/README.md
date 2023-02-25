@@ -33,6 +33,6 @@
   
    11. Solder everything to required pins
    
-   12. See Elite Setup after code is installed.
+   12. See Mini Setup after code is installed.
    
-            https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Setup-Elite.md
+            https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Setup-Mini.md
