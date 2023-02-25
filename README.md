@@ -25,7 +25,7 @@
      
      - Designed, assembled and coded in the USA. 
      
-     - Multi Player/gun Setup different VID's and calibrate button color.
+     - Multi Player/gun Setup different VID's and calibrate button color & button mappings.
 
 
 # Button Mapping
