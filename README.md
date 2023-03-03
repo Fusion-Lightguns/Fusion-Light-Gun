@@ -2,10 +2,10 @@
 
      A open source infared Light gun.  
      
-![334712859_865966361180021_7135611576718570886_n](https://user-images.githubusercontent.com/118452807/222825027-e189a475-329a-48be-87d9-170d4bbaeda2.jpg)
-![334761391_1252637548984916_4555337882744622068_n](https://user-images.githubusercontent.com/118452807/222825031-f97ffb74-bacc-406b-b584-3d7e1631b8fd.jpg)
-![334005413_815343856679616_4610088105498374868_n](https://user-images.githubusercontent.com/118452807/222825034-20fda15f-027a-43f3-ae81-7949972e99c8.jpg)
+#Prototype #3
      
+     ![334712859_865966361180021_7135611576718570886_n](https://user-images.githubusercontent.com/118452807/222825027-e189a475-329a-48be-87d9-170d4bbaeda2.jpg)
+
      
 # Features
 
