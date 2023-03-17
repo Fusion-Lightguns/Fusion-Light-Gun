@@ -53,10 +53,6 @@
      - Front Button (Calibrate) ---- F4
     
      - Dpad on the back
-     
-     Extra Buttons in Code (See Pin Layout)
-     
-     - Number 2, Number 6 & Mouse 3
 
      
 # Compatible MicroProcessors
