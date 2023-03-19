@@ -58,6 +58,10 @@
 # Compatible MicroProcessors
 
      - Pro Micro
+     
+# Wana DIY it? See here:
+
+      https://github.com/Fusion-Lightguns/DIY-Fusion-Guns
 
      
 # Freguently Asked Questions
