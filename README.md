@@ -17,7 +17,7 @@
      
      - Made by gamers for gamers. WITH community input .
       
-     - 3D Print shells and parts. (Most Open Source)
+     - 3D Print shells and parts . ALL open source.
      
      - Built with Linux/RetroPie in mind . ( Making Setup Scripts)
      
