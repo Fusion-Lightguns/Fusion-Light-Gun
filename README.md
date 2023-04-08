@@ -52,7 +52,7 @@
      
      - Front Button (Calibrate) ---- F4
     
-     - Dpad on the back
+     - Mini Joystick on back ------- Up, Down, Left, Right & A
 
      
 # Compatible MicroProcessors
