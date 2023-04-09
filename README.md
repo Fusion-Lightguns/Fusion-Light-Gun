@@ -19,7 +19,7 @@
       
      - 3D Print shells and parts . ALL open source.
      
-     - Built with Linux/RetroPie in mind . ( Making Setup Scripts)
+     - Built with Linux & Windows in mind.
      
      - Extra buttons in code. If you want add or mod a new gun
      
