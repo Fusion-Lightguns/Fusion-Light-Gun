@@ -11,7 +11,7 @@
 
      - Easy calibration 
      
-     - 7 Buttons & Dpad on gun
+     - 7 Buttons & Mini Joystick on gun
           
      - Open source with DIY instructions & Files. Wanna build yourself do it lol .
      
