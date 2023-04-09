@@ -45,7 +45,19 @@
     - Move gun left/right shoot center of screen
 
     - Shoot to finish
+    
+# Emulator Setup 
 
+    - These Lightguns are similar to all IR Lightguns. 
+    
+**    Retroarch **
+
+        - Open Retroarch UI set.
+        
+        - Go to map controls and map using the lightgun.
+        
+        - Enable Lightgun support this varies greatly per core.
+              
 
 # Notes
 
@@ -53,5 +65,7 @@
     - If you bought fusion Lightguns from a offical retailer it comes with a Calibration tool. 
 
     - If you DIY or need the tool see here https://github.com/Fusion-Lightguns/Fusion-Gun-Tool
+    
+    
 
 
