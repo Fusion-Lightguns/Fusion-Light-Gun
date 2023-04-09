@@ -78,7 +78,7 @@
           
       - How do I setup the gun?
       
-          Please See: https://github.com/Fusion-Lightguns/Fusion-Volt/blob/main/Setup-Min.md
+          Please See: https://github.com/Fusion-Lightguns/Fusion-Mini/blob/main/Setup-Mini.md
 
      - What color calibrate is what player? 
 
