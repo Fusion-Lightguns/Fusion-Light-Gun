@@ -52,7 +52,7 @@
      
      - Front Button (Calibrate) ---- F4
     
-     - Mini Joystick on back ------- Up, Down, Left, Right & A
+     - 5Way Rocker on back ------- Up, Down, Left, Right & A
 
      
 # Compatible MicroProcessors
