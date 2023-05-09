@@ -1,5 +1,5 @@
 
-# This is to showcase Fusion Elite Builds. 
+# This is to showcase Fusion Mini Builds. 
 
 If you want your builds featured here email pics to fusionphaser@gmail.com
 
