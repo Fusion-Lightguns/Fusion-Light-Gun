@@ -43,6 +43,10 @@
     
     - Dave Sousa
     
+# Extra Stuff 
+
+    - Chris Patch ( For making out joystick better)
+    
     
 
     
