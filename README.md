@@ -35,6 +35,8 @@
 # Button Mapping
 
      On The Lightgun (In Code)-------------Keyboard button 
+     
+     Pic Version: https://raw.githubusercontent.com/Fusion-Lightguns/Fusion-Mini/main/Pics/Mini-Layout.png
 
      Updated V 1.4
      
