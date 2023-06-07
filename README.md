@@ -2,8 +2,6 @@
 
      A open source infared Light gun.  
      
-# Prototype #3
-
 ![Thingiverse-pic (1)](https://github.com/Fusion-Lightguns/Fusion-Mini/assets/118452807/cd7d0198-27b7-4fd1-953c-83e2e4c0cd6b)
 
 # Features
