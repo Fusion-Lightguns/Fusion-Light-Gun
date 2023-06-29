@@ -20,7 +20,7 @@
     
 ---- Emulation Station, Recallbox, RetroPie all the frontends
 
-    It would nt be nearly as nice without a frontend.
+    It would not be nearly as nice without a frontend.
     
 ---- RetroArch, Dolphin, Sameboy, Mupen64 all emulators.
 
