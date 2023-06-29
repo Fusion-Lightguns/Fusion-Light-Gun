@@ -45,7 +45,7 @@
     
 # Coding Credits 
 
-    - Hammad ---- Vib Motor Code
+    - Hammad Fiverr ---- Vib Motor Code
 
 # Misc Credits
 
