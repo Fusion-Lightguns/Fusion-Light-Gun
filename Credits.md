@@ -1,4 +1,4 @@
-# General Credits List for Fusion Mini
+# General Credits
 
 ---- Samco Lightgun 
 
@@ -43,9 +43,15 @@
     
     - Dave Sousa
     
-# Extra Stuff 
+# Coding Credits 
 
-    - Chris Patch ( For making out joystick better)
+    - Hammad ---- Vib Motor Code
+
+# Misc Credits
+
+    - Chris Patch ---- For making out joystick better
+
+    - Gunther Vinson ---- For Support in many ways.
     
     
 
