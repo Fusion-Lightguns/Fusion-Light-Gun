@@ -54,10 +54,9 @@
 
      - Pro Micro
      
-# Wana DIY it? See here:
+# Wana DIY it? 
 
-      https://github.com/Fusion-Lightguns/DIY-Fusion-Guns
-
+     - See code & parts folders in this repo.
      
 # Freguently Asked Questions
 
