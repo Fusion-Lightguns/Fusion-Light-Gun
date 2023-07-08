@@ -76,7 +76,7 @@
 
      - What color calibrate is what player? 
 
-          Player 1 = Green, Player 2 = Yellow, Player 3 = Red, Player 4 = Blue
+          Player 1 = Black, Player 2 = White, Player 3 = Red, Player 4 = Blue
 # Credits 
 
 
