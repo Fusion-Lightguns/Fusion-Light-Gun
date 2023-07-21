@@ -74,9 +74,6 @@
       
           Please See: https://github.com/Fusion-Lightguns/Fusion-Mini/blob/main/Setup-Mini.md
 
-     - What color calibrate is what player? 
-
-          Player 1 = Black, Player 2 = White, Player 3 = Red, Player 4 = Blue
 # Credits 
 
 
