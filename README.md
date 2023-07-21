@@ -31,7 +31,7 @@
      
      Pic Version: https://raw.githubusercontent.com/Fusion-Lightguns/Fusion-Mini/main/Pics/Mini-Layout.png
 
-     Updated V 1.4
+     Updated V 2.4
      
      - Trigger ---------------------------- Mouse 1
      
@@ -47,7 +47,7 @@
      
      - Front Button (Calibrate) ---- F4
     
-     - 5Way Rocker on back ------- Up, Down, Left, Right & A
+     - Mini Joystick on back ------- Up, Down, Left, Right
 
      
 # Compatible MicroProcessors
