@@ -1,8 +1,16 @@
 # Pro Micro Code 
 
-Please Select Newest Version and use it . 
+Please Select Newest Version and do the following:
 
-After Coding See Pin Out Below 
+1. Plug in Pro Micro
+2. Open FusionLightgun.ino with Arduino IDE
+3. Select Fusion as board your com port for Pro micro .
+4. Burn the sketch to the Pro Micro .
+
+After coding solder all your buttons and stuff you want to. 
+
+Pin outs below for which Pin does what. 
+
 
 # Pin Out 
 
