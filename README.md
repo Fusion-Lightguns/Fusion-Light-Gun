@@ -6,42 +6,40 @@
      
      - 7 Buttons & Mini Joystick on gun
           
-     - Open source with DIY instructions & Files. Wanna build yourself do it lol .
+     - Open source with DIY instructions & files.
      
-     - Made by gamers for gamers. WITH community input .
+     - Made by gamers for gamers. WITH community input.
       
-     - 3D Print shells and parts . ALL open source.
+     - 3D Print shell. ALL open source.
      
      - Built with Linux & Windows in mind.
      
-     - Extra buttons in code. If you want add or mod a new gun
-     
      - Best button Layout I could figure out for gaming.
      
-     - 4 IR Leds . 2 on top two on bottom.
+     - 4 IR Leds. 2 on top two on bottom.
      
      - Designed, assembled and coded in the USA. 
      
-     - Multi Player/gun Setup different VID's and calibrate button color & button mappings.
+     - Multi Player/guns setup.
+
+     - Neopixel coded/built in.
 
 
 # Button Mapping
 
      On The Lightgun (In Code)-------------Keyboard button 
-     
-     Pic Version: https://raw.githubusercontent.com/Fusion-Lightguns/Fusion-Mini/main/Pics/Mini-Layout.png
 
      Updated V 2.4
      
      - Trigger ---------------------------- Mouse 1
      
-     - Front Trigger (B)---------------------- Escape
+     - Pump (Reload)---------------------- Mouse 2
 
-     - L Side Button 1 (Reload) --------- Mouse 2 
+     - L Side Button 1 (A) --------- Enter
      
      - L Side Button 2 (Start) ----- Number 1
      
-     - R Side Button 1 (A) --------- Enter
+     - R Side Button 1 (B) --------- Escape
           
      - R Side Button (Select) ------ Number 5
      
@@ -56,7 +54,7 @@
      
 # Wana DIY it? 
 
-     - See code & parts folders in this repo.
+     - See "Code" & "Parts" folders in this repo.
      
 # Freguently Asked Questions
 
