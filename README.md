@@ -25,11 +25,11 @@
      - Neopixel coded/built in.
 
 
-# Button Mapping
+# Button Mapping (Updated with 2.4)
 
-     On The Lightgun (In Code)-------------Keyboard button 
+Player 1
 
-     Updated V 2.4
+On The Lightgun (In Code)-------------Keyboard button 
      
      - Trigger ---------------------------- Mouse 1
      
@@ -41,16 +41,9 @@
      
      - R Side Button 1 (B) --------- Escape
           
-     - R Side Button (Select) ------ Number 5
-     
-     - Front Button (Calibrate) ---- F4
+     - R Side Button (Select) ----- Number 5 
     
      - Mini Joystick on back ------- Up, Down, Left, Right
-
-     
-# Compatible MicroProcessors
-
-     - Pro Micro
      
 # Wana DIY it? 
 
