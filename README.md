@@ -47,7 +47,7 @@ On The Lightgun (In Code)-------------Keyboard button
      
 # Wana DIY it? 
 
-     - See "Code" & "Parts" folders in this repo.
+     - See ""DIY" folder in this repo.
      
 # Freguently Asked Questions
 
