@@ -1,0 +1,33 @@
+Pro Micro Pin & Button Layout
+
+Pin #-- On Gun -- Keyboard/Mouse Button-- In Code
+
+___TRIGGERS & CALIBRATE____
+10 ---- Trigger -------- Mouse Left ----- Trigger
+16 ---- 2nd Trigger----- Mouse Right ---- Reload
+14 ---- Front Button --- F4 ----------- Calibrate
+
+___BUTTONS ON FRONT GRIP___
+9 --- Front Left ------- Left Control ---- A Button
+8 --- Front Right ------ Left Shift ------ B Button
+7 --- Back Left -------- 2 --------------- Start
+6 --- Back Right ------- 6 --------------- Select
+
+
+____DPAD BUTTONS____
+A0 -- Up ---------- Up Arrow ---------- Up
+A1 -- Down -------- Down Arrow -------- Down
+A2 -- Left -------- Left Arrow -------- Left
+A3 -- Right ------- Right Arrow ------- Right
+15 -- Click ------- S Key ------------- JClick
+RAW - Power
+
+____OTHER NEEDED PINS____
+
+2 ---- SDA on Camera
+3 ---- SDL on Camera
+VCC -- POWER for Camera
+GND -- Ground Pins
+Your Buttons & Camera Need To Be Grounded
+
+ 
