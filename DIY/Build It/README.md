@@ -33,7 +33,7 @@ First things first.
 
         - https://www.thingiverse.com/thing:6054146
 
-# Ok Lets Get started.
+# Ok Lets get started.
 
   - Code the micro processor with "Code It" folder 
 
@@ -157,6 +157,4 @@ You wil lhave to use use the same gnd for a few things . I suggest trigger, neop
 
   
 
-#MORE COMING SOON
-
-  - Grab all
+# MORE COMING SOON
