@@ -31,6 +31,12 @@ https://www.aliexpress.us/item/3256804395507847.html?spm=a2g0o.productlist.0.0.7
 
 https://www.aliexpress.us/item/3256804336848130.html?spm=a2g0o.productlist.0.0.74142997Npr3Ft&algo_pvid=a6ff1056-0c6b-4b88-a870-7dcb62c7b177&algo_exp_id=a6ff10
 
+Need/Want a case for em? 
+
+  - You will need a 3d printer or you can buy the print from craftcloud 
+
+  - Download & print your choice of case here: https://www.thingiverse.com/thing:6119123
+
 # MicroUSB Cable Pack
 
 https://www.amazon.com/dp/B096G6C257?psc=1&ref=ppx_yo2ov_dt_b_product_details
