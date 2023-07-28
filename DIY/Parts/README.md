@@ -11,9 +11,7 @@ https://amzn.to/3UPP5Zm
 
 Micro Switch 
 https://www.amazon.com/12PAack-Action-Button-Microwave-MXRS/dp/B083C113YL/ref=sr_1_3?crid=1FFNVG1RHY0FV&keywords=micro+switch+50g&qid=1688004832&sprefix=micro+switc%2Caps%2C1103&sr=8-3
-# Vib Motor Board
 
-https://www.aliexpress.us/item/3256805124153325.html?spm=a2g0o.productlist.main.1.7a1c7e66M6MXGo&algo_pvid=9b97f711-7a89-4ce5-ab29-7e8500180a48&algo_exp_id=9b97f711-7a89-4ce5-ab29-7e8500180a48-0&pdp_npi=3%40dis%21USD%213.92%212.98%21%21%21%21%21%40211bd7bf16880047729375705d0c55%2112000032582046142%21sea%21US%214194185414&curPageLogUid=InqVEU19cAlD
 
 # With IR LEDS you have 2 chooses. USB Bar or Loose. 
 
