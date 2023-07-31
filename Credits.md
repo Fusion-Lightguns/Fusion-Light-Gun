@@ -16,7 +16,7 @@
     
 ---- DFRobot 
 
-    IRamera and general tech stuff.
+    IR vamera and general tech stuff.
     
 ---- Emulation Station, Recallbox, RetroPie all the frontends
 
@@ -49,7 +49,7 @@
 
 # Misc Credits
 
-    - Chris Patch ---- For making out joystick better
+    - Chris Patch ---- For making out joystick better, misc help and awesomness.
 
     - Gunther Vinson ---- For Support in many ways.
     
