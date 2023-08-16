@@ -4,7 +4,7 @@
 
      - Easy calibration 
      
-     - 7 Buttons & Mini Joystick on gun
+     - 7 Buttons & 4 way Joystick on gun
           
      - Open source with DIY instructions & files.
      
@@ -18,7 +18,7 @@
      
      - 4 IR Leds. 2 on top two on bottom.
      
-     - Designed, assembled and coded in the USA. 
+     - Designed & assembled in the USA. 
      
      - Multi Player/guns setup.
 
