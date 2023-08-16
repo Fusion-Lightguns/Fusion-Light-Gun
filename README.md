@@ -6,11 +6,11 @@
      
      - 7 Buttons & 4 way Joystick on gun
           
-     - Open source with DIY instructions & files.
+     - DIY instructions & files.
      
      - Made by gamers for gamers. WITH community input.
       
-     - 3D Print shell. ALL open source.
+     - Open source. Things like 3D Printed Shells, PCBs, LED Housings etc.
      
      - Built with Linux & Windows in mind.
      
@@ -21,8 +21,6 @@
      - Designed & assembled in the USA. 
      
      - Multi Player/guns setup.
-
-     - Neopixel coded/built in.
 
 
 # Button Mapping (Updated with 2.4)
