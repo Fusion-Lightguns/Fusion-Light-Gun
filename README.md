@@ -1,10 +1,22 @@
-![Thingiverse-pic (1)](https://github.com/Fusion-Lightguns/Fusion-Mini/assets/118452807/cd7d0198-27b7-4fd1-953c-83e2e4c0cd6b)
+# New look & Updates. 12/7/23
 
+     - Changed repo name to Fusion-Light-Gun. This is so DIY is easier for all guns.  Code could have been used before but name change should help.
+
+     - The two models i make will have thier own folders. The Fusion Mini a #d Printed Light Gun and the Fusion Fury a new molded plastic light gun(pics soon).
+
+     - Version 3.0 released with rumble and recoil support. See DIY folder.
+
+     - Readme and files updated.
+
+     - Working with batocera team for built in automatic support.
+     
 # Features
 
      - Easy calibration 
      
-     - 7 Buttons & 4 way Joystick on gun
+     - 8 Buttons & 4 way Joystick on gun.
+
+     - Recoil & Rumble support *NEW*
           
      - DIY instructions & files.
      
@@ -23,25 +35,47 @@
      - Multi Player/guns setup.
 
 
-# Button Mapping (Updated with 2.4)
+# Button Mapping (Updated with 3.0)
 
 Player 1
 
-On The Lightgun (In Code)-------------Keyboard button 
+In Code-------------Keyboard button 
      
      - Trigger ---------------------------- Mouse 1
      
-     - Pump (Reload)---------------------- Mouse 2
+     - Reload---------------------- Mouse 2
 
-     - L Side Button 1 (A) --------- Enter
+     - Bomb ---------------------- Mouse 3
+
+     - A --------- Enter
      
-     - L Side Button 2 (Start) ----- Number 1
+     - Start ----- Number 1
      
-     - R Side Button 1 (B) --------- Escape
+     - B --------- Escape
           
-     - R Side Button (Select) ----- Number 5 
+     - Select ----- Number 5 
     
-     - Mini Joystick on back ------- Up, Down, Left, Right
+     - Up, Down, Left, Right ------- Up, Down, Left, Right
+
+Player 2
+
+In Code-------------Keyboard button 
+     
+     - Trigger ---------------------------- Mouse 1
+     
+     - Reload---------------------- Mouse 2
+
+     - Bomb ---------------------- Mouse 3
+
+     - A --------- Left Control
+     
+     - Start ----- Number 2
+     
+     - B --------- Left Shift
+          
+     - Select ----- Number 6
+    
+     - Up, Down, Left, Right ------- Up, Down, Left, Right
      
 # Wana DIY it? 
 
@@ -49,9 +83,9 @@ On The Lightgun (In Code)-------------Keyboard button
      
 # Freguently Asked Questions
 
-     - Can I buy it premade?
+     - Can I buy a premade one?
      
-          Working on redoing shell. https://fusion-lightguns.square.site/s/shop
+          Working on it. https://fusion-lightguns.square.site/s/shop
           
      - Can I help with development?
      
@@ -62,6 +96,15 @@ On The Lightgun (In Code)-------------Keyboard button
       - How do I setup the gun?
       
           Please See: https://github.com/Fusion-Lightguns/Fusion-Mini/blob/main/Setup-Mini.md
+
+# Examples/Builds
+
+# Fusion Mini 
+
+See Fusion Mini Readme for exact info on this modek. (link coming soon)
+
+![Thingiverse-pic (1)](https://github.com/Fusion-Lightguns/Fusion-Mini/assets/118452807/cd7d0198-27b7-4fd1-953c-83e2e4c0cd6b)
+
 
 # Credits 
 
