@@ -1,8 +1,6 @@
 # Updates 1/8/24
 
-     - The models I make will have thier own folders. 
-               
-               The Fusion Mini (3D Printed mini Shotgun), The LG-42 (a OdCon remix) and the Fusion Fury a molded plastic light gun(pics soon).
+     - See DIY/Build It/"Gun Name" for DIY Instructions.
 
      - Batocera devs have a Fusion Fury now and making it "Plug N Play"
      
