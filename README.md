@@ -117,6 +117,8 @@ Pics coming soon!
 
 Thingiverse Link: https://www.thingiverse.com/thing:6323569
 
+Build It Link: https://github.com/Fusion-Lightguns/Fusion-Light-Gun/blob/main/DIY/Build%20It/LG-42/ReadMe.md
+
 
 # Version 1.00 Pics
 
