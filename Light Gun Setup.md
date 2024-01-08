@@ -1,7 +1,7 @@
-# Fusion Mini Setup -------------------- Version 2.0
+# Fusion Light Guns Setup -------------------- Version 3.0
 
 
-# LED Setup for Fusion Mini
+# LED Setup for Fusion Light Guns
 
     - Find middle of TV
 
@@ -31,10 +31,6 @@
     - Shoot to finish
 
 # Notes/FYI
-
-    - The LED on the bottom by cord is a indicator for your gun. If red it cant see leds . If green you ready to pew pew.
-
-    - Calibration button is located behind sight on top of gun. 
 
     - HELP ?!?!?! I cant map any buttons. 
 
