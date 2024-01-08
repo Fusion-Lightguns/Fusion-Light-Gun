@@ -1,0 +1,35 @@
+Pro Micro Pin & Button Layout
+
+Pin #-- Keyboard/Mouse Button-- In Code
+
+___TRIGGER, CALIBRATE & RELOAD____
+10 ---- Trigger -------- Mouse Left
+16 ---- Reload  -------- Mouse Right 
+4 ---- Bomb    -------- Mouse Middle
+14 ---- Mouse5 ----------- Calibrate
+
+___BUTTONS 
+6 --- Left Control ---- A Button
+7 --- Left Shift ------ B Button
+8 --- 6 --------------- Select
+9 --- 2 --------------- Start
+
+
+____DPAD BUTTONS____
+A0 -- Up Arrow ---------- Up
+A1 -- Down Arrow -------- Down
+A2 -- Left Arrow -------- Left
+A3 -- Right Arrow ------- Right
+
+____OTHER NEEDED PINS____
+
+2 ---- SDA on Camera
+3 ---- SDL on Camera
+VCC -- POWER for Camera
+GND -- Ground Pins
+15 --- Motor
+5 ---- Solenoid
+
+Your Buttons & Camera Need To Be Grounded
+
+ 
