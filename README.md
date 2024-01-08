@@ -29,7 +29,7 @@
      - Multi Player/guns setup.
 
 
-# Button Mapping (Updated with 3.0)
+# Button Mapping 
 
 # ___Player 1___
 
@@ -90,8 +90,7 @@ In Code-------------Keyboard button
       - How do I setup the gun?
       
           Please See: https://github.com/Fusion-Lightguns/Fusion-Mini/blob/main/Setup-Mini.md
-
-# 3D Printable Light Guns
+          
 
 # ___Fusion Mini___
 
