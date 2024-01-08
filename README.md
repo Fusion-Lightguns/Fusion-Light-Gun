@@ -2,9 +2,9 @@
 
      - Changed repo name to Fusion-Light-Gun. This is so DIY is easier for all guns.  Code could have been used before but name change should help.
 
-     - The two models i make will have thier own folders. The Fusion Mini a #d Printed Light Gun and the Fusion Fury a new molded plastic light gun(pics soon).
+     - The models I make will have thier own folders. The Fusion Mini (3D Printed mini Shotgun), The LG-42 (a OdCon remix) and the Fusion Fury a molded plastic light gun(pics soon).
 
-     - Version 3.0 released with rumble and recoil support. See DIY folder.
+     - Version 3.1 released with rumble and recoil support. See DIY folder.
 
      - Readme and files updated.
 
