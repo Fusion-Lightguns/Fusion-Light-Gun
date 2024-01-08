@@ -18,9 +18,9 @@
 
      - Recoil & Rumble support *NEW*
           
-     - DIY instructions & files.
+     - DIY instructions, files & PCB's.
      
-     - Made by gamers for gamers. WITH community input.
+     - Made by a gamer for gamers. WITH community input.
       
      - Open source. Things like 3D Printed Shells, PCBs, LED Housings etc.
      
@@ -97,7 +97,7 @@ In Code-------------Keyboard button
       
           Please See: https://github.com/Fusion-Lightguns/Fusion-Mini/blob/main/Setup-Mini.md
 
-# Examples/Builds
+# 3D Printable Light Guns
 
 # ___Fusion Mini___
 
@@ -121,7 +121,6 @@ Thingiverse Link: https://www.thingiverse.com/thing:6323569
 ![LG42-v1](https://cdn.thingiverse.com/assets/0c/61/f7/95/5d/large_display_1acf553a-a14f-4948-8784-6c0d71841c58.png)
 
 
-# Credits 
-
+# Fusion Light Gun Credits
 
 - https://github.com/Fusion-Lightguns/Fusion-Elite/blob/main/Credits.md
