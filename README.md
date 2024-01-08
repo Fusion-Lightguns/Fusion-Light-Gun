@@ -37,7 +37,7 @@
 
 # Button Mapping (Updated with 3.0)
 
-Player 1
+# ___Player 1___
 
 In Code-------------Keyboard button 
      
@@ -57,7 +57,7 @@ In Code-------------Keyboard button
     
      - Up, Down, Left, Right ------- Up, Down, Left, Right
 
-Player 2
+# ___Player 2___
 
 In Code-------------Keyboard button 
      
