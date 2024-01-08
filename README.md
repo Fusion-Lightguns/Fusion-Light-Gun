@@ -2,7 +2,7 @@
 
      - See DIY/Build It/"Gun Name" for DIY Instructions.
 
-     - Batocera devs have a Fusion Fury now and making it "Plug N Play"
+     - Batocera devs have a Fusion Fury now and making it "Plug N Play" for Batocera v39
      
 # Features
 
