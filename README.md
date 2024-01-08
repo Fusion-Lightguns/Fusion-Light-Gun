@@ -103,6 +103,8 @@ In Code-------------Keyboard button
 
 Thingiverse Link: https://www.thingiverse.com/thing:6054146
 
+Build It Link: https://github.com/Fusion-Lightguns/Fusion-Light-Gun/blob/main/DIY/Build%20It/Fusion%20Mini/ReadMe.md
+
 # Version 3.0 Pics
 
 Pics coming soon!
