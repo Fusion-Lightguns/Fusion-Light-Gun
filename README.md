@@ -115,7 +115,7 @@ Pics coming soon!
 
 # Version 1.00
 
-![pic](https://cdn.thingiverse.com/assets/0c/61/f7/95/5d/large_display_1acf553a-a14f-4948-8784-6c0d71841c58.png)
+![LG42-v1](https://cdn.thingiverse.com/assets/0c/61/f7/95/5d/large_display_1acf553a-a14f-4948-8784-6c0d71841c58.png)
 
 
 # Credits 
