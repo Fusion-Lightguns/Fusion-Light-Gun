@@ -1,14 +1,10 @@
-# New look & Updates. 12/7/23
+# Updates 1/8/24
 
-     - Changed repo name to Fusion-Light-Gun. This is so DIY is easier for all guns.  Code could have been used before but name change should help.
+     - The models I make will have thier own folders. 
+               
+               The Fusion Mini (3D Printed mini Shotgun), The LG-42 (a OdCon remix) and the Fusion Fury a molded plastic light gun(pics soon).
 
-     - The models I make will have thier own folders. The Fusion Mini (3D Printed mini Shotgun), The LG-42 (a OdCon remix) and the Fusion Fury a molded plastic light gun(pics soon).
-
-     - Version 3.1 released with rumble and recoil support. See DIY folder.
-
-     - Readme and files updated.
-
-     - Working with batocera team for built in automatic support.
+     - Batocera devs have a Fusion Fury now and making it "Plug N Play"
      
 # Features
 
@@ -16,7 +12,7 @@
      
      - 8 Buttons & 4 way Joystick on gun.
 
-     - Recoil & Rumble support *NEW*
+     - Recoil & Rumble support
           
      - DIY instructions, files & PCB's.
      
