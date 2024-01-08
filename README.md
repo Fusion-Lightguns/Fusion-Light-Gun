@@ -99,21 +99,24 @@ In Code-------------Keyboard button
 
 # Examples/Builds
 
-# Fusion Mini 
+# ___Fusion Mini___
 
-See Fusion Mini Readme for exact info on this model. (link coming soon)
+Thingiverse Link: https://www.thingiverse.com/thing:6054146
 
-# Version 3.0
+# Version 3.0 Pics
 
 Pics coming soon!
 
-# Version 2.0 
+# Version 2.0 Pics
 ![Thingiverse-pic (1)](https://github.com/Fusion-Lightguns/Fusion-Mini/assets/118452807/cd7d0198-27b7-4fd1-953c-83e2e4c0cd6b)
 
 
-# LG-42 
+# ___LG-42___
 
-# Version 1.00
+Thingiverse Link: https://www.thingiverse.com/thing:6323569
+
+
+# Version 1.00 Pics
 
 ![LG42-v1](https://cdn.thingiverse.com/assets/0c/61/f7/95/5d/large_display_1acf553a-a14f-4948-8784-6c0d71841c58.png)
 
