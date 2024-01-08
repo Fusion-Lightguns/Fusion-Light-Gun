@@ -89,7 +89,7 @@ In Code-------------Keyboard button
           
       - How do I setup the gun?
       
-          Please See: "https://github.com/Fusion-Lightguns/Fusion-Light-Gun/blob/main/Light%20Gun%20Setup.md"
+          Please See: !(https://github.com/Fusion-Lightguns/Fusion-Light-Gun/blob/main/Light%20Gun%20Setup.md)
           
 
 # ___Fusion Mini___
