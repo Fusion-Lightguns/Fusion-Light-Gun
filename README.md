@@ -101,8 +101,13 @@ In Code-------------Keyboard button
 
 # Fusion Mini 
 
-See Fusion Mini Readme for exact info on this modek. (link coming soon)
+See Fusion Mini Readme for exact info on this model. (link coming soon)
 
+#b Version 3.0
+
+Pics coming soon!
+
+#b Version 2.0 
 ![Thingiverse-pic (1)](https://github.com/Fusion-Lightguns/Fusion-Mini/assets/118452807/cd7d0198-27b7-4fd1-953c-83e2e4c0cd6b)
 
 
