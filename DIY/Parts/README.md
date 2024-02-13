@@ -33,16 +33,8 @@ ___Need/Want a case for em?___
 
 https://www.amazon.com/dp/B096G6C257?psc=1&ref=ppx_yo2ov_dt_b_product_details
 
-# Mini Joystick 3 for $10
-
-https://www.amazon.com/DAOKI-Direction-Navigation-Independent-5-Channel/dp/B07XB2245Q/ref=rvi_sccl_18/138-9298012-7358203?pd_rd_w=HtNBQ&content-id=amzn1.sym.f5690a4d-f2bb-45d9-9d1b-736fee412437&pf_rd_p=f5690a4d-f2bb-45d9-9d1b-736fee412437&pf_rd_r=ZXRR03ZBRH299PN3TR3K&pd_rd_wg=rQxYA&pd_rd_r=2e655f56-4de4-4bee-b706-8e6171b971d0&pd_rd_i=B07XB2245Q&psc=1
-
-Preassembled coming soon on website.
-
 
 # Micro Processors 
-
-Make sure to flash the firmware for your choosen board. 
 
 Arduino Pro Micro 3 for $20 or $14 for 1
 
