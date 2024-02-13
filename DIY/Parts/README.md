@@ -9,6 +9,9 @@ https://www.dfrobot.com/product-1088.html
 16MM $12 for 10 
 https://amzn.to/3UPP5Zm
 
+12MM $1.50 a piece 
+https://www.dfrobot.com/product-73.html
+
 Micro Switch 
 https://www.amazon.com/12PAack-Action-Button-Microwave-MXRS/dp/B083C113YL/ref=sr_1_3?crid=1FFNVG1RHY0FV&keywords=micro+switch+50g&qid=1688004832&sprefix=micro+switc%2Caps%2C1103&sr=8-3
 
