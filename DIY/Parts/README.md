@@ -25,10 +25,6 @@ ___Need/Want a case for em?___
 
   - Download & print your choice of case here: https://www.thingiverse.com/thing:6119123
 
-___You can also buy 2 wii bars & "extend" them.___
-
-https://amzn.to/3BNOr7U
-
 
 # MicroUSB Cable Pack
 
