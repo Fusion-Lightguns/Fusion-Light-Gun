@@ -8,10 +8,10 @@ Using a TV screen:
     1. Put one box on top of screen near left edge, using L Frame or TV Frame. 
     
      2. Repeat step 1 but on right edge.
-     Secure as needed if using L Frame . 
+     Secure as needed if using L Frame. 
      
       3A: If using L Frames. 
-      Repeat steps 1 & 2 on bottom of screen .
+      Repeat steps 1 & 2 on bottom of screen.
       
       3B: If you Bottom Frames. 
       Set 2 Boxes directly below your screen. 
