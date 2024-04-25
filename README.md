@@ -1,9 +1,5 @@
-# Updates 1/8/24
+This Repo is a fork of Prow7s IR Lightgun plus which is a fork of Samcos IR Lightgun .
 
-     - See DIY/Build It/"Gun Name" for DIY Instructions.
-
-     - Batocera devs have a Fusion Fury now and making it "Plug N Play" for Batocera v39
-     
 # Features
 
      - Easy calibration 
