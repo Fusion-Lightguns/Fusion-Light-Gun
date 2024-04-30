@@ -1,4 +1,9 @@
-This Repo is a fork of Prow7s IR Lightgun plus which is a fork of Samcos IR Lightgun .
+This Repo is based on the [Prow Enhanced fork](https://github.com/Prow7/ir-light-gun), which in itself is based on the 4IR Beta "Big Code Update" [SAMCO project](https://github.com/samuelballantyne/IR-Light-Gun)
+
+This Repo is also becoming irrelevant and for code gnomes only lol. 
+
+See https://github.com/Fusion-Lightguns/GUN4ALL for new  methods 
+
 
 # Features
 
