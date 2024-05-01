@@ -2,7 +2,7 @@ This Repo is based on the [Prow Enhanced fork](https://github.com/Prow7/ir-light
 
 This Repo is also becoming irrelevant and for code gnomes only lol. 
 
-See https://github.com/Fusion-Lightguns/GUN4ALL for new  methods 
+See [P.I.G.S](https://github.com/Fusion-Lightguns/P.I.G.S--Pico-Gun-System/tree/plus) for new  methods 
 
 
 # Features
