@@ -1,8 +1,7 @@
-This Repo is based on the [Prow Enhanced fork](https://github.com/Prow7/ir-light-gun), which in itself is based on the 4IR Beta "Big Code Update" [SAMCO project](https://github.com/samuelballantyne/IR-Light-Gun)
+## Fusion Light Gun ##
 
-This Repo is also becoming irrelevant and for code gnomes only lol. 
-
-See [P.I.G.S](https://github.com/Fusion-Lightguns/P.I.G.S--Pico-Gun-System/tree/plus) for new  methods 
+- This Repo is based on the [Prow Enhanced fork](https://github.com/Prow7/ir-light-gun), which in itself is based on the 4IR Beta "Big Code Update" [SAMCO project](https://github.com/samuelballantyne/IR-Light-Gun)
+- THIS REPO IS OUTDATED & ONLY KEPT FOR CODE GNOMES!!! Please See [P.I.G.S](https://github.com/Fusion-Lightguns/P.I.G.S--Pico-Gun-System/tree/plus) for new  methods 
 
 
 # Features
